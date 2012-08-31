@@ -13,7 +13,7 @@ define([], function() {
 
                 'home': 'defaultAction'
          //       , 'tests': 'runTests'
-                , 'info/:file': 'showInfo'
+                , 'info/:which': 'showInfo'
                 , 'gallery/:cat': 'showGallery'
 
         }
@@ -23,12 +23,19 @@ define([], function() {
 	
     	}
 		, defaultAction: function( actions ){
-            console.log('home');
+            $('#content nav').html('');
 		}
-        , showInfo: function(file){
-            console.log('info ' + file);
+        , showInfo: function(which){
+            console.log('info ' + which);
+
+            var navFile = 'templates/nav-' + which + '.tpl';
+            $.get(navFile,function(data){
+                $('#content nav').html(data);
+            });
+
         }
         , showGallery: function(cat){
+             $('#content nav').html('');
             console.log('gallery ' + cat)
 
         }

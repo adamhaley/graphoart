@@ -1,3 +1,5 @@
+@import url(functions.less);
+
 body{
 	font-family:arial,helvetica,sans-serif;
 	font-size:11px;
@@ -15,6 +17,7 @@ header{
 nav{
 	position:absolute;
 	z-index:20;
+	overflow:none;
 	ul{
 		list-style-type: none;
 		li{
@@ -22,9 +25,10 @@ nav{
 			margin-left: 50px;
 			margin-top:5px;
 			a{
+				
 				color: #000;
 				text-decoration: none;
-				font-weight:bold;
+				/*font-weight:bold;*/
 				font-size:14px;
 				&:hover{
 					color:#264bd9;
@@ -46,27 +50,55 @@ nav{
 #topnav{
 	left:310px;
 	top:110px;
-	
+	width:1000px;
 }
 
 #bottomnav{
 	position:relative;
 	margin-top:30px;
+	padding-left:340px;
 	left:0px;
 	background-color:#c9c9c9;
-	height:53px;
+	height:63px;
 	width:1276px;
-	padding-top:20px;
+	padding-top:10px;
 	text-align:right;
 	ul{
 		
 		li{
 			
-			margin-left: 10px;
+			margin-left: 30px;
 		
 			
 		}
 	}
+}
+
+
+
+#content nav{
+	position:absolute;
+	top:0px;
+	left:100px;
+	width:200px;
+	height:100%;
+	color:#fff;
+	
+	ul{
+		list-style-type: none;
+		text-align: right;
+		
+		li{
+			
+			a{
+				color:#fff;
+			}
+		}
+	}
+}
+
+#content article{
+	position:absolute;
 }
 
 footer{
