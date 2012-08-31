@@ -63,18 +63,41 @@ nav ul li a:hover {
 }
 #content nav {
   position: absolute;
-  top: 0px;
-  left: 100px;
-  width: 200px;
+  top: 20px;
+  left: 0px;
+  width: 400px;
   height: 100%;
   color: #fff;
+  text-align: right;
 }
 #content nav ul {
   list-style-type: none;
+  width: 200px;
   text-align: right;
 }
+#content nav ul li {
+  clear: both;
+  text-align: right;
+  display: block;
+}
 #content nav ul li a {
+  cursor: pointer;
   color: #fff;
+}
+#content nav #contact-info {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 140px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+#content nav #contact-info b {
+  font-weight: bold;
+}
+#content nav #contact-info em {
+  font-style: italic;
 }
 #content article {
   position: absolute;
