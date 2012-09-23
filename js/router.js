@@ -47,7 +47,7 @@ define([], function() {
                 }
 
                 $.ajax({
-                url:'/graphoart/images/gallery/' + cat + '/'
+                url:'images/gallery/' + cat + '/'
                 , error: function(data){
                     console.log(data);
                 }
