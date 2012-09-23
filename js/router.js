@@ -44,6 +44,8 @@ define([], function() {
             var loadGallery = function(){
                 if(!$('#gallery').is(':visible')){
                     $('#gallery').fadeIn();
+                }else{
+                    $('#gallery').fadeOut();
                 }
 
                 $.ajax({
