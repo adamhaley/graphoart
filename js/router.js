@@ -66,19 +66,24 @@ define([], function() {
                     galleryHtml += '</ul>';
 
                     var options = {
-                        // ticker: true
-                        // , tickerSpeed: 1050
-                        displaySlideQty: 3
+                         /*ticker: true
+                        , tickerSpeed: 7500
+                        ,
+                        */ displaySlideQty: 3
                         , moveSlideQty: 2
                         , auto: true
+                        , pause: 3000
                     }
 
                     //figure out effects queue here
                     // $('#gallery').fadeOut().html(galleryHtml).fadeIn();
                     $('#gallery').html(galleryHtml);
-                    $('#carousel').bxSlider(options);
-                    // $('#gallery').show(200);
-                    console.log('done');
+                    
+                    $('#gallery img:last').load(function(){
+                        // console.log('loaded');
+                         $('#carousel').fadeIn().bxSlider(options);
+                    });
+                
                 }
 
                 });
@@ -86,7 +91,7 @@ define([], function() {
             };
 
             // $('#gallery').fadeOut(200, function(){loadGallery();});
-            loadGallery()
+            loadGallery();
             
         }
 	})

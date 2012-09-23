@@ -126,7 +126,10 @@ nav ul li a:hover {
 }
 #gallery img {
   border: 2px solid #fff;
-  margin: 10px;
+  margin: 15px;
+}
+#gallery #carousel {
+  display: none;
 }
 footer {
   background-image: url(../images/line.png);
