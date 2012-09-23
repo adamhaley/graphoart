@@ -100,22 +100,29 @@ nav ul li a:hover {
   font-style: italic;
 }
 #content article {
-  position: absolute;
+  position: relative;
 }
 #gallery {
+  position: absolute;
   right: 0px;
   top: 0px;
   z-index: 10000;
-  overflow: auto;
-  border: 1px solid pink;
   width: 1000px;
   height: 390px;
-}
-#gallery ul {
-  list-style-type: none;
-}
-#gallery ul li {
-  float: right;
+  /*
+	ul{
+		list-style-type: none;
+		li{
+			img{
+				width:300px;
+				height:200px;
+			}
+			float:left;
+			margin-left:20px;
+		}
+	}
+	*/
+
 }
 footer {
   background-image: url(../images/line.png);

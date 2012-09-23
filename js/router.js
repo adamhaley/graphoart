@@ -50,7 +50,7 @@ define([], function() {
                     
                     $('#gallery').html(''); 
 
-                    var galleryHtml = '<ul>';
+                    var galleryHtml = '<ul id="carousel">';
                     var images = $(data)[5];
 
                     $(images).find('a').each(function(){
@@ -64,7 +64,7 @@ define([], function() {
                     galleryHtml += '</ul>';
 
                     $('#gallery').html(galleryHtml); 
-                    
+                    $('#carousel').bxSlider();
                 }
 
             });
