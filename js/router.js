@@ -42,7 +42,7 @@ define([], function() {
              $('#content nav').html('');
             $('#carousel').fadeOut();
 
-
+            $('#loader').show();
             var loadGallery = function(){
 
 
@@ -81,7 +81,9 @@ define([], function() {
                     
                     $('#gallery img:last').load(function(){
                         // console.log('loaded');
+                        $('#loader').hide();
                          $('#carousel').fadeIn().bxSlider(options);
+                        
                     });
                 
                 }
