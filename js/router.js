@@ -57,11 +57,10 @@ define([], function() {
                     var galleryHtml = '<ul id="carousel">';
                     var images = $(data)[5];
 
-                    $(images).find('a').each(function(){
+                    $(images).find('a:contains(".jpg")').each(function(){
                         var entry = $(this).text().trim();
-                        if(entry != 'Parent Directory'){    
-                            galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '"" /></li>"';       
-                        }
+                        galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '"" /></li>"';       
+                        
                     });
 
                     galleryHtml += '</ul>';
