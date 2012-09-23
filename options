@@ -1,0 +1,6 @@
+{
+    auto: true
+    , autoControls: true
+    , displaySlideQty: 2
+    , moveSlideQty: 1
+  }

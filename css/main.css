@@ -104,10 +104,10 @@ nav ul li a:hover {
 }
 #gallery {
   position: absolute;
-  right: 0px;
+  left: 200px;
   top: 0px;
-  z-index: 10000;
-  width: 1000px;
+  overflow: none;
+  width: 358px;
   height: 390px;
   /*
 	ul{
@@ -123,6 +123,10 @@ nav ul li a:hover {
 	}
 	*/
 
+}
+#gallery img {
+  border: 2px solid #fff;
+  margin: 10px;
 }
 footer {
   background-image: url(../images/line.png);
