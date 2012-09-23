@@ -132,15 +132,18 @@ nav ul li a:hover {
   display: none;
 }
 #loader {
+  color: #fff;
+  display: none;
   position: absolute;
-  top: 200px;
-  left: 500px;
+  top: 300px;
+  left: 650px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('../images/ajax-loader.gif');
+  background-image: url('../images/round-loader.gif');
+  background-position: 60px 0px;
   background-repeat: no-repeat;
   width: 300px;
-  height: 80px;
+  height: 40px;
   z-index: 200;
   /*
 	&.hidden{

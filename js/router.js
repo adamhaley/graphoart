@@ -25,10 +25,11 @@ define([], function() {
 		, defaultAction: function( actions ){
             $('#content nav').html('');
             $('#carousel').fadeOut(); 
+            $('.bx-wrapper').fadeOut();
 		}
         , showInfo: function(which){
             console.log('info ' + which);
-
+            $('.bx-wrapper').hide();
             $('#content nav').html('');
              $('#gallery').html(''); 
             var navFile = 'templates/nav-' + which + '.tpl';
@@ -77,17 +78,16 @@ define([], function() {
                         , pause: 3000
                     }
 
-                    //figure out effects queue here
-                    // $('#gallery').fadeOut().html(galleryHtml).fadeIn();
                     $('#gallery').html(galleryHtml);
                     
                     $('#gallery img:last').load(function(){
                         // console.log('loaded');
                         $('#loader').hide(function(){
                             $('.bx-wrapper').show();
+                            $('#carousel').fadeIn().bxSlider(options);
                         });
 
-                        $('#carousel').fadeIn().bxSlider(options);
+                        
                         
                          
                     });
@@ -96,8 +96,7 @@ define([], function() {
 
                 });
             }
-        
-            // $('#gallery').fadeOut(200, function(){loadGallery();});
+     
              setTimeout(loadGallery,1000);
             
         }
