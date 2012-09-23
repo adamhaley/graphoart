@@ -98,7 +98,7 @@ define([], function() {
             }
         
             // $('#gallery').fadeOut(200, function(){loadGallery();});
-             setTimeout(loadGallery,2000);
+             setTimeout(loadGallery,1000);
             
         }
 	})
