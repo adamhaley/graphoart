@@ -41,14 +41,14 @@ define([], function() {
         }
         , showGallery: function(cat){
              $('#content nav').html('');
-            $('#carousel').fadeOut(function(){
-                $('.bx-wrapper').hide();
-                $('#loader').show();
-            });
+           
 
             
             var loadGallery = function(){
-
+                 $('#carousel').fadeOut(function(){
+                $('.bx-wrapper').hide();
+                $('#loader').show();
+            });
             $.ajax({
                 url:'images/gallery/' + cat + '/'
                 , error: function(data){
