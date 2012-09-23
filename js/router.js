@@ -40,13 +40,11 @@ define([], function() {
         }
         , showGallery: function(cat){
              $('#content nav').html('');
-            // console.log('gallery ' + cat);
+            $('#carousel').fadeOut();
+
+
             var loadGallery = function(){
-                if(!$('#gallery').is(':visible')){
-                    $('#gallery').fadeIn();
-                }else{
-                    $('#gallery').fadeOut();
-                }
+
 
                 $.ajax({
                 url:'images/gallery/' + cat + '/'
