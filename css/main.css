@@ -102,6 +102,21 @@ nav ul li a:hover {
 #content article {
   position: absolute;
 }
+#gallery {
+  right: 0px;
+  top: 0px;
+  z-index: 10000;
+  overflow: auto;
+  border: 1px solid pink;
+  width: 1000px;
+  height: 390px;
+}
+#gallery ul {
+  list-style-type: none;
+}
+#gallery ul li {
+  float: right;
+}
 footer {
   background-image: url(../images/line.png);
   background-repeat: no-repeat;
