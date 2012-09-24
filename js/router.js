@@ -40,15 +40,17 @@ define([], function() {
 
         }
         , showGallery: function(cat){
-             $('#content nav').html('');
-           
-
+            $('#content nav').html('');
+            
+            // $('#carousel').fadeOut(function(){
+            $('.bx-wrapper').hide();
+                    // $('#loader').show();
+                    
+                    
+            // });
             
             var loadGallery = function(){
-                 $('#carousel').fadeOut(function(){
-                $('.bx-wrapper').hide();
-                $('#loader').show();
-            });
+                
             $.ajax({
                 url:'images/gallery/' + cat + '/'
                 , error: function(data){
@@ -82,10 +84,10 @@ define([], function() {
                     
                     $('#gallery img:last').load(function(){
                         // console.log('loaded');
-                        $('#loader').hide(function(){
+                        // $('#loader').hide(function(){
                             $('.bx-wrapper').show();
                             $('#carousel').fadeIn().bxSlider(options);
-                        });
+                        // });
 
                         
                         
@@ -96,8 +98,8 @@ define([], function() {
 
                 });
             }
-     
-             setTimeout(loadGallery,1000);
+            loadGallery();
+            // setTimeout(loadGallery,1000);   
             
         }
 	})
