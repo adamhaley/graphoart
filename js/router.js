@@ -23,6 +23,7 @@ define([], function() {
 	
     	}
         , home: function(){
+            $('.bx-wrapper').hide();
             $('#carousel').fadeOut(); 
         }
 		, defaultAction: function( actions ){
