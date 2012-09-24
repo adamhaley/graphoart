@@ -25,6 +25,7 @@ define([], function() {
         , home: function(){
             $('.bx-wrapper').hide();
             $('#carousel').fadeOut(); 
+            $('#content nav').html('');
         }
 		, defaultAction: function( actions ){
             $('#content nav').html('');
