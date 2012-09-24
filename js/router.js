@@ -11,7 +11,7 @@ define([], function() {
 	
     	routes: {
 
-                'home': 'defaultAction'
+                'home': 'home'
          //       , 'tests': 'runTests'
                 , 'info/:which': 'showInfo'
                 , 'gallery/:cat': 'showGallery'
@@ -22,10 +22,13 @@ define([], function() {
     		 Backbone.history.start();
 	
     	}
+        , home: function(){
+            $('#carousel').fadeOut(); 
+        }
 		, defaultAction: function( actions ){
             $('#content nav').html('');
-            $('#carousel').fadeOut(); 
-            $('.bx-wrapper').fadeOut();
+            
+            // $('.bx-wrapper').fadeOut();
 		}
         , showInfo: function(which){
             console.log('info ' + which);
@@ -44,11 +47,7 @@ define([], function() {
             
             // $('#carousel').fadeOut(function(){
             $('.bx-wrapper').hide();
-                    // $('#loader').show();
-                    
-                    
-            // });
-            
+      
             var loadGallery = function(){
                 
             $.ajax({
@@ -81,17 +80,13 @@ define([], function() {
                     }
 
                     $('#gallery').html(galleryHtml);
-                    
+                    $('#loader').show();
                     $('#gallery img:last').load(function(){
                         // console.log('loaded');
-                        // $('#loader').hide(function(){
+                        $('#loader').hide(0,function(){
                             $('.bx-wrapper').show();
                             $('#carousel').fadeIn().bxSlider(options);
-                        // });
-
-                        
-                        
-                         
+                        });
                     });
                 
                 }
