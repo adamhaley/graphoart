@@ -102,6 +102,21 @@ nav ul li a:hover {
 #content article {
   position: relative;
 }
+#home-slideshow {
+  display: none;
+  position: absolute;
+  left: 363px;
+  top: 0;
+  width: 800px;
+  height: 378px;
+  /*
+	img{
+		border-left:2px solid #fff;
+		border-right:2px solid #fff;
+	}
+	*/
+
+}
 #gallery {
   position: absolute;
   left: 200px;

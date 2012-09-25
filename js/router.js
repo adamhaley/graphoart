@@ -24,8 +24,35 @@ define([], function() {
     	}
         , home: function(){
             $('.bx-wrapper').hide();
-            $('#carousel').fadeOut(); 
+            // $('#carousel').fadeOut(); 
             $('#content nav').html('');
+          
+            var $carousel = $('<ul />').attr('id','carousel');
+
+            var images = ['http://placekitten.com/g/800/400','http://placekitten.com/800/400'];
+
+            for(i=0;i<images.length;i++){
+                var $img = $('<img />').attr('src',images[i]).attr('width','800').attr('height','390');
+                var $li = $('<li />').append($img);
+                $carousel.append($li);
+            }
+
+            $slideshow = $('<div />').attr('id','home-slideshow');
+
+            $slideshow.append($carousel);
+    
+            $('article').html($slideshow);
+
+            options = {
+
+                mode: 'fade'
+                , controls: false
+                , auto: true
+                , pause: 3000
+            }
+
+            $('#home-slideshow').fadeIn();
+            $('#carousel').fadeIn().bxSlider(options);
         }
 		, defaultAction: function( actions ){
             $('#content nav').html('');
@@ -46,52 +73,49 @@ define([], function() {
         }
         , showGallery: function(cat){
             $('#content nav').html('');
-            
+            $('article').html('<div id="gallery" />');
             // $('#carousel').fadeOut(function(){
             $('.bx-wrapper').hide();
       
             var loadGallery = function(){
                 
-            $.ajax({
-                url:'images/gallery/' + cat + '/'
-                , error: function(data){
-                    console.log(data);
-                }
-                , success: function(data){
-            
-                    console.log('ajax call successful');
-                    var galleryHtml = '<ul id="carousel">';
-                    var images = $(data)[5];
-
-                    $(images).find('a:contains(".jpg")').each(function(){
-                        var entry = $(this).text().trim();
-                        galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '"" /></li>"';       
-                        
-                    });
-
-                    galleryHtml += '</ul>';
-
-                    var options = {
-                         /*ticker: true
-                        , tickerSpeed: 7500
-                        ,
-                        */ displaySlideQty: 3
-                        , moveSlideQty: 2
-                        , auto: true
-                        , pause: 3000
+                $.ajax({
+                    url:'images/gallery/' + cat + '/'
+                    , error: function(data){
+                        console.log(data);
                     }
+                    , success: function(data){
+            
+                        console.log('ajax call successful');
+                        var galleryHtml = '<ul id="carousel">';
+                        var images = $(data)[5];
 
-                    $('#gallery').html(galleryHtml);
-                    $('#loader').show();
-                    $('#gallery img:last').load(function(){
-                        // console.log('loaded');
-                        $('#loader').hide(0,function(){
-                            $('.bx-wrapper').show();
-                            $('#carousel').fadeIn().bxSlider(options);
+                        $(images).find('a:contains(".jpg")').each(function(){
+                            var entry = $(this).text().trim();
+                            galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '"" /></li>"';       
+                        
                         });
-                    });
+
+                        galleryHtml += '</ul>';
+
+                        var options = {
+                            displaySlideQty: 3
+                            , moveSlideQty: 2
+                            , auto: true
+                            , pause: 3000
+                        }
+
+                        $('#gallery').html(galleryHtml);
+                        $('#loader').show();
+                        $('#gallery img:last').load(function(){
+                        // console.log('loaded');
+                            $('#loader').hide(0,function(){
+                                $('.bx-wrapper').show();
+                                $('#carousel').fadeIn().bxSlider(options);
+                            });
+                        });
                 
-                }
+                    }
 
                 });
             }
