@@ -11,10 +11,12 @@ define([], function() {
 	
     	routes: {
 
-                'home': 'home'
+                'home': 'defaultAction'
+                
          //       , 'tests': 'runTests'
                 , 'info/:which': 'showInfo'
                 , 'gallery/:cat': 'showGallery'
+                ,'*actions':'defaultAction'
 
         }
         , initialize: function () {
@@ -22,7 +24,8 @@ define([], function() {
     		 Backbone.history.start();
 	
     	}
-        , home: function(){
+        , defaultAction: function(){
+            console.log('in default action');
             $('.bx-wrapper').hide();
             // $('#carousel').fadeOut(); 
             $('#content nav').html('');
@@ -49,25 +52,24 @@ define([], function() {
                 , controls: false
                 , auto: true
                 , pause: 3000
+
             }
 
             $('#home-slideshow').fadeIn();
             $('#carousel').fadeIn().bxSlider(options);
         }
-		, defaultAction: function( actions ){
-            $('#content nav').html('');
-            
-            // $('.bx-wrapper').fadeOut();
-		}
+		
         , showInfo: function(which){
-            console.log('info ' + which);
+           
+
             $('.bx-wrapper').hide();
             $('#content nav').html('');
-             $('#gallery').html(''); 
+            $('#gallery').html(''); 
             var navFile = 'templates/nav-' + which + '.tpl';
         
             $.get(navFile,function(data){
                 $('#content nav').html(data);
+                
             });
 
         }
