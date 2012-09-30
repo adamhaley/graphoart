@@ -19,6 +19,8 @@ nav{
 	z-index:20;
 	overflow:none;
 	ul{
+	
+	
 		list-style-type: none;
 		li{
 			float: left;
@@ -45,6 +47,7 @@ nav{
 	background-image:url(../images/graphoart-bg.png);
 	width:1276px;
 	height:390px;
+
 }
 
 #topnav{
@@ -74,22 +77,24 @@ nav{
 	}
 }
 
-#content nav{
+#content nav.info{
 	position:absolute;
 	top:20px;
-	left:0px;
-	width:400px;
+	left:150px;
+	width:100px;
 	height:100%;
 	color:#fff;
 	text-align:right;
+	
 	ul{
 		list-style-type: none;
-		width:200px;
+		width:100%;
 		text-align:right;
 		li{
 			clear:both;
 			text-align:right;
-			display:block;
+			width:100%;
+			line-height:1.5em;
 			a{
 				cursor:pointer;
 				color:#fff;
@@ -114,17 +119,14 @@ nav{
 	}
 }
 
-#content{
-
-}
-
 #content article{
 	position:relative;
 	
-
+	font-size:1.2em;
+	line-height:1.3em;
 	padding:20px;
 	color:#fff;
-	left:400px;
+	left:340px;
 
 	width:800px;
 	height:390px;
@@ -140,32 +142,57 @@ nav{
 		width:300px;
 		height:80px;
 	}
+
+	&.home{
+		overflow:hidden;
+		padding:0px;
+	}
+
+	#about-content{
+		float:left;
+		b{
+			font-weight:bold;
+		}
+		width:490px;
+		font-size:1.1em;
+		line-height:1.3em;
+
+	}
+	#about-photo{
+			float:right;
+		}
 }
 
+
+h2{
+	color:#5e89df;
+}
 #home-slideshow{
 	display:none;
 	position:absolute;
-	left:363px;
+	
+	
+	overflow:hidden;
+	left:10px;
 	top:0;
 	width:800px;
-	height:378px;
+	height:390px;
 	/*
 	img{
 		border-left:2px solid #fff;
 		border-right:2px solid #fff;
 	}
 	*/
-
 }
 
 #gallery{
 	position:absolute;
-	left:200px;
+	// left:200px;
 	top:0px;
 	// z-index:10;
 	overflow:none;
 	// border:1px solid pink;
-	width:358px;
+	width:800px;
 	height:390px;
 
 	img{

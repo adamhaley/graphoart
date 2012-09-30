@@ -28,6 +28,8 @@ define([], function() {
             // $('#carousel').fadeOut(); 
             $('#content nav').html(''); 
           
+            $('article').attr('class','home');
+
             var $carousel = $('<ul />').attr('id','carousel');
 
             var images = ['http://placekitten.com/g/800/400','http://placekitten.com/800/400'];
@@ -66,6 +68,8 @@ define([], function() {
             var navFile = 'templates/nav-' + which + '.tpl';
             var contentFile = 'templates/' + which + '.tpl';
 
+            $('article').attr('class','info');
+
             $.get(navFile,function(data){
                 $('#content nav').html(data);
             });
@@ -82,6 +86,8 @@ define([], function() {
             // $('#carousel').fadeOut(function(){
             $('.bx-wrapper').hide();
       
+            $('article').attr('class','gallery');
+
             var loadGallery = function(){
                 
                 $.ajax({
@@ -105,7 +111,7 @@ define([], function() {
 
                         var options = {
                             displaySlideQty: 3
-                            , moveSlideQty: 2
+                            , moveSlideQty: 1
                             , auto: true
                             , pause: 3000
                         }
