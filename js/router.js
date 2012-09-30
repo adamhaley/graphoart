@@ -61,6 +61,7 @@ define([], function() {
 		
         , showInfo: function(which){
            
+            $('#content nav').removeClass('contact');
 
             $('.bx-wrapper').hide();
             $('#content nav').html('');
@@ -72,11 +73,13 @@ define([], function() {
 
             $.get(navFile,function(data){
                 $('#content nav').html(data);
+               
+                $('#content nav').addClass(which);
             });
 
-            console.log(contentFile);
+    
             $.get(contentFile,function(data){
-                console.log(data);
+              
                 $('#content article').html(data);
             });
         }
