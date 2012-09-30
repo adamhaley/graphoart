@@ -12,8 +12,6 @@ define([], function() {
     	routes: {
 
                 'home': 'defaultAction'
-                
-         //       , 'tests': 'runTests'
                 , 'info/:which': 'showInfo'
                 , 'gallery/:cat': 'showGallery'
                 ,'*actions':'defaultAction'
@@ -28,7 +26,7 @@ define([], function() {
             console.log('in default action');
             $('.bx-wrapper').hide();
             // $('#carousel').fadeOut(); 
-            $('#content nav').html('');
+            $('#content nav').html(''); 
           
             var $carousel = $('<ul />').attr('id','carousel');
 
@@ -66,12 +64,17 @@ define([], function() {
             $('#content nav').html('');
             $('#gallery').html(''); 
             var navFile = 'templates/nav-' + which + '.tpl';
-        
+            var contentFile = 'templates/' + which + '.tpl';
+
             $.get(navFile,function(data){
                 $('#content nav').html(data);
-                
             });
 
+            console.log(contentFile);
+            $.get(contentFile,function(data){
+                console.log(data);
+                $('#content article').html(data);
+            });
         }
         , showGallery: function(cat){
             $('#content nav').html('');
