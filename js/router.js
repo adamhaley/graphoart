@@ -23,6 +23,10 @@ define([], function() {
 	
     	}
         , defaultAction: function(){
+            $('a').removeClass('active');
+
+            $('a[href$="home"]').addClass('active');
+
             console.log('in default action');
             $('.bx-wrapper').hide();
             // $('#carousel').fadeOut(); 
@@ -60,7 +64,9 @@ define([], function() {
         }
 		
         , showInfo: function(which){
-           
+            $('a').removeClass('active');
+            $('a[href$="' + which + '"]').addClass('active');
+
             $('#content nav').removeClass('contact');
 
             $('.bx-wrapper').hide();
@@ -77,13 +83,20 @@ define([], function() {
                 $('#content nav').addClass(which);
             });
 
-    
+            // options = {scrollbarClass: 'myScrollbar'};
+
             $.get(contentFile,function(data){
               
                 $('#content article').html(data);
+                // $('#content article').iScroll(options);
             });
+
+
         }
         , showGallery: function(cat){
+            $('a').removeClass('active');
+            $('a[href$="' + cat + '"]').addClass('active');
+
             $('#content nav').html('');
             $('article').html('<div id="gallery" />');
             // $('#carousel').fadeOut(function(){
