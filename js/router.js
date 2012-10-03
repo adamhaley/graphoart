@@ -14,6 +14,7 @@ define([], function() {
                 'home': 'defaultAction'
                 , 'info/:which': 'showInfo'
                 , 'gallery/:cat': 'showGallery'
+
                 ,'*actions':'defaultAction'
 
         }
@@ -97,6 +98,13 @@ define([], function() {
             $('a').removeClass('active');
             $('a[href$="' + cat + '"]').addClass('active');
 
+            var graphicCats = ['retouches','editorial','corporate','logo','media','webdesign'];
+            if($.inArray(cat,graphicCats) > -1){
+                $('a[href$="graphic-design"]').addClass('active');
+            }else{
+                $('a[href$="photography"]').addClass('active');
+            }
+
             $('#content nav').html('');
             $('article').html('<div id="gallery" />');
             // $('#carousel').fadeOut(function(){
@@ -119,7 +127,7 @@ define([], function() {
 
                         $(images).find('a:contains(".jpg")').each(function(){
                             var entry = $(this).text().trim();
-                            galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '"" /></li>"';       
+                            galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '" /></li>';       
                         
                         });
 
@@ -138,7 +146,7 @@ define([], function() {
                         // console.log('loaded');
                             $('#loader').hide(0,function(){
                                 $('.bx-wrapper').show();
-                                $('#carousel').fadeIn().bxSlider(options);
+                                $('#carousel').fadeIn();
                             });
                         });
                 
