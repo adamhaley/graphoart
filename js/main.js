@@ -12,7 +12,7 @@ requirejs.config({
 		,'mustache': 'libs/mustache/mustache'
 		,'templates': '../templates'
 		,'boxslider': 'libs/jquery/boxslider/jquery.bxSlider.min'
-		,'iscroll' : 'libs/iscroll/src/iscroll' 
+		
 	}
 	
 	, shim: {
@@ -20,7 +20,7 @@ requirejs.config({
             deps: ['underscore', 'jquery'],
             exports: 'Backbone'
         }
-		, 'router': ['backbone', 'underscore', 'mustache' , 'boxslider','iscroll']
+		, 'router': ['backbone', 'underscore', 'mustache' , 'boxslider']
 		, 'boxslider': ['jquery']
 	}
 
