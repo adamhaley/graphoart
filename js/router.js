@@ -37,6 +37,43 @@ define([], function() {
 
             var $carousel = $('<ul />').attr('id','carousel');
 
+
+
+            $.ajax({
+                    url:'images/home-slideshow/'
+                    , error: function(data){
+                        console.log(data);
+                    }
+                    , success: function(data){
+                        var imageArray = $(data)[5];
+                        $(imageArray).find('a:contains(".jpg")').each(function(){
+                            var $img = $('<img />').attr('src','images/home-slideshow/' + $(this).text().trim()).attr('width','800').attr('height','390');
+                            var $li = $('<li />').append($img);
+                            $carousel.append($li);
+
+                        });
+                        $slideshow = $('<div />').attr('id','home-slideshow');
+
+                        $slideshow.append($carousel);
+    
+                        $('article').html($slideshow);
+
+                        options = {
+
+                            mode: 'fade'
+                            , controls: false
+                            , auto: true
+                            , pause: 3000
+
+                        }
+
+                        $('#home-slideshow').fadeIn();
+                        $carousel.fadeIn().bxSlider(options);
+                    }
+            });
+
+
+            /*
             var images = ['http://placekitten.com/g/800/400','http://placekitten.com/800/400'];
 
             for(i=0;i<images.length;i++){
@@ -44,24 +81,8 @@ define([], function() {
                 var $li = $('<li />').append($img);
                 $carousel.append($li);
             }
-
-            $slideshow = $('<div />').attr('id','home-slideshow');
-
-            $slideshow.append($carousel);
-    
-            $('article').html($slideshow);
-
-            options = {
-
-                mode: 'fade'
-                , controls: false
-                , auto: true
-                , pause: 3000
-
-            }
-
-            $('#home-slideshow').fadeIn();
-            $('#carousel').fadeIn().bxSlider(options);
+            */
+          
         }
 		
         , showInfo: function(which){
