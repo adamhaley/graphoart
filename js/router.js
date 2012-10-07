@@ -28,6 +28,9 @@ define([], function() {
 
             $('a[href$="home"]').addClass('active');
 
+             $('#content article').css('overflow','none');
+
+
             console.log('in default action');
             $('.bx-wrapper').hide();
             // $('#carousel').fadeOut(); 
