@@ -93,6 +93,9 @@ define([], function() {
 
             $('.bx-wrapper').hide();
             $('#content nav').html('');
+            $('#content article').css('overflow','auto');
+
+
             $('#gallery').html(''); 
             var navFile = 'templates/nav-' + which + '.tpl';
             var contentFile = 'templates/' + which + '.tpl';
@@ -118,6 +121,9 @@ define([], function() {
         , showGallery: function(cat){
             $('a').removeClass('active');
             $('a[href$="' + cat + '"]').addClass('active');
+
+            $('#content article').css('overflow','none');
+
 
             var graphicCats = ['retouches','editorial','corporate','logo','media','webdesign'];
             if($.inArray(cat,graphicCats) > -1){
