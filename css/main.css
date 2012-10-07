@@ -9,7 +9,7 @@ nav ul li a.active{color:#264bd9;}
 #content nav.contact{left:0px;width:400px;}
 #content nav #contact-info{margin-left:30px;text-align:left;font-size:13px;font-weight:normal;margin-top:140px;line-height:20px;}#content nav #contact-info b{font-weight:bold;}
 #content nav #contact-info em{font-style:italic;}
-#content article{position:relative;font-size:1.2em;line-height:1.3em;padding:10px;color:#fff;left:350px;width:800px;height:390px;overflow:auto;}
+#content article{position:relative;font-size:1.2em;line-height:1.3em;padding:10px;color:#fff;left:350px;width:800px;height:390px;overflow:none;}
 #content article input[type="text"]{width:300px;}
 #content article textarea{width:300px;height:80px;}
 #content article.home{overflow:hidden;padding:0px;}
