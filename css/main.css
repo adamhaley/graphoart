@@ -13,7 +13,7 @@ nav ul li a.active{color:#264bd9;}
 #content article input[type="text"]{width:300px;}
 #content article textarea{width:300px;height:80px;}
 #content article.home{overflow:hidden;padding:0px;}
-#content article #about-content{float:left;width:490px;font-size:1.1em;line-height:1.3em;overflow-y:scroll;}#content article #about-content b{font-weight:bold;}
+#content article #about-content{float:left;width:490px;font-size:1.1em;line-height:1.3em;overflow:none;}#content article #about-content b{font-weight:bold;}
 #content article #about-photo{float:right;}
 h2{color:#5e89df;}
 #home-slideshow{display:none;position:absolute;overflow:hidden;left:10px;top:0;width:800px;height:390px;}
