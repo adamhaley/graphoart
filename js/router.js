@@ -112,6 +112,7 @@ define([], function() {
                
                 $('#content nav').addClass(which);
 
+                $('#content article').scrollTop(0);
                 //CRAZINESS IN HERE. CLEAN THIS UP!!!!
                 $.get(contentFile,function(data){
               
@@ -128,7 +129,10 @@ define([], function() {
                             positions[id] = scrollPos;  
                         });
 
-                        //event handling
+                        //remove any click events which may already be attached
+                        $('#content').unbind('click');
+
+                        //add the click event delegating nav links
                         $('#content').on('click','nav.rates a',function(){
                    
                             var id = $(this).text().toLowerCase();
@@ -136,21 +140,30 @@ define([], function() {
 
                             $('#content article').animate({scrollTop: scrollPos},'slow');    
                         });
-                    }
-            
-                    if(which=='about'){
+                    }else if(which=='about'){
+                      
+
+
                         var positions = {};
                         $('#content nav a').each(function(){
+                       
                             var id = $(this).attr('id').replace('nav-','');
                             var scrollPos = $('#' + id).position().top;
+                            console.log(scrollPos);
+
                             positions[id] = scrollPos;  
                         });
 
-                        //event handling
+                         //remove any click events which may already be attached
+                        $('#content').unbind('click');
+
+                        //add the click event delegating nav links
                         $('#content').on('click','nav.about a',function(){
-                   
+                           
+
                             var id = $(this).attr('id').replace('nav-','');
                             var scrollPos = positions[id];
+                            console.log(scrollPos);
 
                             $('#content article').animate({scrollTop: scrollPos},'slow');    
                         });
