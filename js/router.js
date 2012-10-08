@@ -89,6 +89,8 @@ define([], function() {
         }
 		
         , showInfo: function(which){
+
+            
             $('a').removeClass('active');
             $('a[href$="' + which + '"]').addClass('active');
 
@@ -109,16 +111,59 @@ define([], function() {
                 $('#content nav').html(data);
                
                 $('#content nav').addClass(which);
+
+                //CRAZINESS IN HERE. CLEAN THIS UP!!!!
+                $.get(contentFile,function(data){
+              
+                    $('#content article').html(data);
+
+
+                    if(which=='rates'){
+
+                        var positions = {};
+
+                        $('#content nav a').each(function(){
+                            var id = $(this).text().toLowerCase();
+                            var scrollPos = $('#' + id).position().top;
+                            positions[id] = scrollPos;  
+                        });
+
+                        //event handling
+                        $('#content').on('click','nav.rates a',function(){
+                   
+                            var id = $(this).text().toLowerCase();
+                            var scrollPos = positions[id];
+
+                            $('#content article').animate({scrollTop: scrollPos},'slow');    
+                        });
+                    }
+            
+                    if(which=='about'){
+                        var positions = {};
+                        $('#content nav a').each(function(){
+                            var id = $(this).attr('id').replace('nav-','');
+                            var scrollPos = $('#' + id).position().top;
+                            positions[id] = scrollPos;  
+                        });
+
+                        //event handling
+                        $('#content').on('click','nav.about a',function(){
+                   
+                            var id = $(this).attr('id').replace('nav-','');
+                            var scrollPos = positions[id];
+
+                            $('#content article').animate({scrollTop: scrollPos},'slow');    
+                        });
+                    }
+                });
+
             });
 
             // options = {scrollbarClass: 'myScrollbar'};
+            
 
-            $.get(contentFile,function(data){
-              
-                $('#content article').html(data);
-                // $('#content article').iScroll(options);
-            });
 
+           
 
         }
         , showGallery: function(cat){
