@@ -22,7 +22,7 @@ nav ul {
 }
 nav ul li {
   float: left;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 5px;
 }
 nav ul li a {
@@ -54,7 +54,7 @@ li#social-links img {
   height: 390px;
 }
 #topnav {
-  left: 310px;
+  left: 340px;
   top: 110px;
   width: 1000px;
 }

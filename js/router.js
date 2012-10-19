@@ -89,7 +89,12 @@ define([], function() {
         }
 		
         , showInfo: function(which){
+            if(which == 'photography'){
+                window.location.hash = "/gallery/headshots"
+            }else if(which == 'graphic-design'){
+                window.location.hash = "/gallery/retouches"
 
+            }
             
             $('a').removeClass('active');
             $('a[href$="' + which + '"]').addClass('active');
@@ -113,6 +118,7 @@ define([], function() {
                 $('#content nav').addClass(which);
 
                 $('#content article').scrollTop(0);
+                
                 //CRAZINESS IN HERE. CLEAN THIS UP!!!!
                 $.get(contentFile,function(data){
               
