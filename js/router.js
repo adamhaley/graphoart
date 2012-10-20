@@ -19,21 +19,17 @@ define([], function() {
 
         }
         , initialize: function () {
-	
-    		 Backbone.history.start();
-	
-    	}
+	    	Backbone.history.start();
+	    }
         , defaultAction: function(){
             $('a').removeClass('active');
 
             $('a[href$="home"]').addClass('active');
 
-             $('#content article').css('overflow','none');
+            $('#content article').css('overflow','none');
 
-
-            console.log('in default action');
             $('.bx-wrapper').hide();
-            // $('#carousel').fadeOut(); 
+           
             $('#content nav').html(''); 
           
             $('article').attr('class','home');
@@ -43,15 +39,30 @@ define([], function() {
 
 
             $.ajax({
-                    url:'images/home-slideshow/'
-                    , error: function(data){
-                        console.log(data);
+                    url:'list-images.php'
+                    , data: 'dir=images/home-slideshow/'
+                    , dataType: 'text json'
+                    , error: function(xhr,error){
+                        
+                        console.log(xhr.statusText);
+                        console.log(xhr.responseText);
+                        console.log(xhr.status);
+                        console.log(error);
+
                     }
                     , success: function(data){
-                        var imageArray = $(data)[5];
-                        $(imageArray).find('a:contains(".jpg")').each(function(){
-                            var $img = $('<img />').attr('src','images/home-slideshow/' + $(this).text().trim()).attr('width','800').attr('height','390');
+                        console.log('success');
+                        console.log(data.files);
+                       
+                        
+
+
+                        $.each(data.files,function(){
+                            
+                            var $img = $('<img />').attr('src','images/home-slideshow/' + this.trim()).attr('width','800').attr('height','390');
+                    
                             var $li = $('<li />').append($img);
+                            
                             $carousel.append($li);
 
                         });
@@ -207,23 +218,32 @@ define([], function() {
             $('article').attr('class','gallery');
 
             var loadGallery = function(){
-                
                 $.ajax({
-                    url:'images/gallery/' + cat + '/'
-                    , error: function(data){
-                        console.log(data);
+                    url:'list-images.php'
+                    , data: 'dir=images/gallery/'  + cat + '/'
+                    , dataType: 'text json'
+                    , error: function(xhr,error){
+                        
+                        console.log(xhr.statusText);
+                        console.log(xhr.responseText);
+                        console.log(xhr.status);
+                        console.log(error);
+
                     }
                     , success: function(data){
-            
-                        console.log('ajax call successful');
-                        var galleryHtml = '<ul id="carousel">';
-                        var images = $(data)[5];
-
-                        $(images).find('a:contains(".jpg")').each(function(){
-                            var entry = $(this).text().trim();
-                            galleryHtml += '<li><img src="images/gallery/' + cat + '/' + entry + '" /></li>';       
+                        console.log('success');
+                        console.log(data.files);
+                       
                         
+
+                        var galleryHtml = '<ul>';
+                        $.each(data.files,function(){
+                            
+                             galleryHtml += '<li><img src="images/gallery/' + cat + '/' + this + '" /></li>';     
+
                         });
+
+
 
                         galleryHtml += '</ul>';
 
