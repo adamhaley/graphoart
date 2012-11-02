@@ -13,8 +13,8 @@ define([], function() {
 
                 'home': 'defaultAction'
                 , 'info/:which': 'showInfo'
-                , 'gallery/:cat': 'showGallery'
-
+                , 'gallery/:cat': 'showGallery' 
+                , 'login': 'clientLogin'
                 ,'*actions':'defaultAction'
 
         }
@@ -36,8 +36,6 @@ define([], function() {
 
             var $carousel = $('<ul />').attr('id','carousel');
 
-
-
             $.ajax({
                     url:'list-images.php'
                     , data: 'dir=images/home-slideshow/'
@@ -54,9 +52,6 @@ define([], function() {
                         console.log('success');
                         console.log(data.files);
                        
-                        
-
-
                         $.each(data.files,function(){
                             
                             var $img = $('<img />').attr('src','images/home-slideshow/' + this.trim()).attr('width','800').attr('height','390');
@@ -85,17 +80,6 @@ define([], function() {
                         $carousel.fadeIn().bxSlider(options);
                     }
             });
-
-
-            /*
-            var images = ['http://placekitten.com/g/800/400','http://placekitten.com/800/400'];
-
-            for(i=0;i<images.length;i++){
-                var $img = $('<img />').attr('src',images[i]).attr('width','800').attr('height','390');
-                var $li = $('<li />').append($img);
-                $carousel.append($li);
-            }
-            */
           
         }
 		
@@ -135,7 +119,6 @@ define([], function() {
               
                     $('#content article').html(data);
 
-
                     if(which=='rates'){
 
                         var positions = {};
@@ -157,10 +140,9 @@ define([], function() {
 
                             $('#content article').animate({scrollTop: scrollPos},'slow');    
                         });
+
                     }else if(which=='about'){
                       
-
-
                         var positions = {};
                         $('#content nav a').each(function(){
                        
@@ -188,13 +170,6 @@ define([], function() {
                 });
 
             });
-
-            // options = {scrollbarClass: 'myScrollbar'};
-            
-
-
-           
-
         }
         , showGallery: function(cat){
             $('a').removeClass('active');
@@ -218,6 +193,8 @@ define([], function() {
             $('article').attr('class','gallery');
 
             var loadGallery = function(){
+                $('#gallery').hide();
+                $('#imgcount').html(0);
                 $.ajax({
                     url:'list-images.php'
                     , data: 'dir=images/gallery/'  + cat + '/'
@@ -232,18 +209,14 @@ define([], function() {
                     }
                     , success: function(data){
                         console.log('success');
-                        console.log(data.files);
+                        // console.log(data.files);
                        
-                        
-
                         var galleryHtml = '<ul>';
                         $.each(data.files,function(){
                             
                              galleryHtml += '<li><img src="images/gallery/' + cat + '/' + this + '" /></li>';     
 
                         });
-
-
 
                         galleryHtml += '</ul>';
 
@@ -255,12 +228,26 @@ define([], function() {
                         }
 
                         $('#gallery').html(galleryHtml);
-                        $('#loader').show();
+                        $('#loader').show().find('#imgcount').html('0');
+
+                        $('#imgtotal').html($('#gallery img').length);
+
+                        var ct = 1;
+                        $('#gallery img').each(function(i){
+                            
+                            $(this).load(function(){
+                                console.log(ct);
+                                $('#imgcount').html(ct);
+                                ct++;
+                            });
+                        });
+
                         $('#gallery img:last').load(function(){
                         // console.log('loaded');
                             $('#loader').hide(0,function(){
                                 $('.bx-wrapper').show();
-                                $('#carousel').fadeIn();
+                                $('#gallery').fadeIn();
+                                $('#imgcount').html(0);
                             });
                         });
                 
@@ -271,6 +258,9 @@ define([], function() {
             loadGallery();
             // setTimeout(loadGallery,1000);   
             
+        }
+        ,clientLogin: function(){
+            $('#content').html();
         }
 	})
     , router = new AppRouter;
