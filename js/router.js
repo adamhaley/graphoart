@@ -22,6 +22,14 @@ define([], function() {
 	    	Backbone.history.start();
 	    }
         , defaultAction: function(){
+           /*
+           $('<img/>',{
+                'src': 'images/logo.png',
+                'load': function(){
+                    $('#watermark').removeClass('hidden');
+                }
+            });
+            */
             $('a').removeClass('active');
 
             $('a[href$="home"]').addClass('active');
@@ -50,7 +58,7 @@ define([], function() {
                     }
                     , success: function(data){
                         console.log('success');
-                        console.log(data.files);
+                        // console.log(data.files);
                        
                         $.each(data.files,function(){
                             
@@ -75,6 +83,37 @@ define([], function() {
                             , pause: 3000
 
                         }
+
+                        $('#carousel img:first').load(function(){
+                            //opening animation sequence
+
+                            $('#pre-loader').hide();
+
+
+                            $('#watermark').addClass('hidden');
+
+                            var showContent = function(){
+                                $('#content').removeClass('hidden');
+                            }
+                            
+                            var showHeader = function(){
+                                $('header').removeClass('hidden');
+                            }
+
+                            var showFooter = function(){
+                                $('footer').removeClass('hidden');
+                            }
+
+                            var showNav = function(){
+                                $('nav').removeClass('hidden');
+                            }
+
+                            setTimeout(showContent,300);
+                            setTimeout(showNav, 1000);
+                            setTimeout(showHeader,700);
+                            setTimeout(showFooter,700);
+
+                        });
 
                         $('#home-slideshow').fadeIn();
                         $carousel.fadeIn().bxSlider(options);

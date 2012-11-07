@@ -11,7 +11,7 @@
 	<script data-main="js/main" src="js/libs/require/require.js"></script>
 </head>
 <body>
-<header>
+<header class="hidden">
 	<span>
 		<h1>GraphoART</h1><br />
 			<h2>
@@ -21,7 +21,7 @@
 			</h2>
 	</span>
 </header>
-<nav id="topnav">
+<nav id="topnav" class="hidden">
 	<ul>
 		<li><a href="#/home">HOME</a></li>
 		<li><a href="#/gallery/headshots">PHOTOGRAPHY</a></li>
@@ -35,7 +35,7 @@
 		
 	</ul>
 </nav>
-<div id="content">
+<div id="content" class="hidden">
 	<nav>
 
 	</nav>
@@ -46,7 +46,7 @@
 	</article>
 
 </div>
-<nav id="bottomnav">
+<nav id="bottomnav" class="hidden">
 	<ul>
 		<span>
 		<li><a href="#/gallery/headshots">HEADSHOTS</a></li>
@@ -71,7 +71,11 @@
 <div id="loader" class="hidden">
 	Loading <span id="imgcount">0</span> images...
 </div>
-<footer>
+<div id="watermark">
+</div>
+<div id="pre-loader">
+</div>
+<footer class="hidden">
 	www.GRAPHOART.com<br />
 	Copyright &copy; 2001-2012 GRAPHOART, Inc.<br />
 	All rights reserved. Do not duplicate or redistribute in any form.
