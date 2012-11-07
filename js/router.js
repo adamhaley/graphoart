@@ -22,14 +22,17 @@ define([], function() {
 	    	Backbone.history.start();
 	    }
         , defaultAction: function(){
-           /*
+           
            $('<img/>',{
                 'src': 'images/logo.png',
                 'load': function(){
-                    $('#watermark').removeClass('hidden');
+                    $('#watermark').removeClass('homeHidden');
                 }
             });
-            */
+            
+            $('#loader').hide();
+
+
             $('a').removeClass('active');
 
             $('a[href$="home"]').addClass('active');
