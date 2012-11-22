@@ -21,6 +21,32 @@ define([], function() {
         , initialize: function () {
 	    	Backbone.history.start();
 	    }
+        , animationSequence: function (){
+            $('#pre-loader').hide();
+
+            $('#watermark').addClass('hidden');
+
+            var showContent = function(){
+                $('#content').removeClass('hidden');
+            }
+                            
+            var showHeader = function(){
+                $('header').removeClass('hidden');
+            }
+
+            var showFooter = function(){
+                $('footer').removeClass('hidden');
+            }
+
+            var showNav = function(){
+                $('nav').removeClass('hidden');
+            }
+
+            setTimeout(showContent,300);
+            setTimeout(showNav, 1000);
+            setTimeout(showHeader,700);
+            setTimeout(showFooter,700);
+        }
         , defaultAction: function(){
            
            $('<img/>',{
@@ -31,7 +57,6 @@ define([], function() {
             });
             
             $('#loader').hide();
-
 
             $('a').removeClass('active');
 
@@ -46,6 +71,7 @@ define([], function() {
             $('article').attr('class','home');
 
             var $carousel = $('<ul />').attr('id','carousel');
+            var router = this;
 
             $.ajax({
                     url:'list-images.php'
@@ -89,32 +115,8 @@ define([], function() {
 
                         $('#carousel img:first').load(function(){
                             //opening animation sequence
-
-                            $('#pre-loader').hide();
-
-
-                            $('#watermark').addClass('hidden');
-
-                            var showContent = function(){
-                                $('#content').removeClass('hidden');
-                            }
-                            
-                            var showHeader = function(){
-                                $('header').removeClass('hidden');
-                            }
-
-                            var showFooter = function(){
-                                $('footer').removeClass('hidden');
-                            }
-
-                            var showNav = function(){
-                                $('nav').removeClass('hidden');
-                            }
-
-                            setTimeout(showContent,300);
-                            setTimeout(showNav, 1000);
-                            setTimeout(showHeader,700);
-                            setTimeout(showFooter,700);
+                            router.animationSequence();
+                           
 
                         });
 
@@ -133,6 +135,8 @@ define([], function() {
 
             }
             
+            this.animationSequence();
+
             $('a').removeClass('active');
             $('a[href$="' + which + '"]').addClass('active');
 
@@ -234,6 +238,9 @@ define([], function() {
       
             $('article').attr('class','gallery');
 
+
+            this.animationSequence();
+
             var loadGallery = function(){
                 $('#gallery').hide();
                 $('#imgcount').html(0);
@@ -285,7 +292,7 @@ define([], function() {
                         });
 
                         $('#gallery img:last').load(function(){
-                        // console.log('loaded');
+               
                             $('#loader').hide(0,function(){
                                 $('.bx-wrapper').show();
                                 $('#gallery').fadeIn();
@@ -298,11 +305,13 @@ define([], function() {
                 });
             }
             loadGallery();
-            // setTimeout(loadGallery,1000);   
-            
         }
         ,clientLogin: function(){
-            $('#content').html();
+            console.log('login');
+
+              this.animationSequence();
+            $('article').html('<div id="login">Client login Coming soon...</div>');
+            // $('#content').html();
         }
 	})
     , router = new AppRouter;
