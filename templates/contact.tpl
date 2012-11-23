@@ -13,5 +13,5 @@ Enter your message:<br />
 <textarea name="message" >
 </textarea><br />
 <input type="checkbox" name="email-copy" /> Email a copy of this message to your own address.<br />
-<input type="submit" name="send" value="Send" />
+<button id="submit" name="send">Send</button>
 </form>

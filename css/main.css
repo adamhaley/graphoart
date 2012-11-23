@@ -191,6 +191,7 @@ li#social-links img {
   height: 100%;
   color: #fff;
   text-align: right;
+  z-index: 500;
 }
 #content nav ul {
   list-style-type: none;
@@ -235,6 +236,7 @@ li#social-links img {
   width: 800px;
   height: 390px;
   overflow: none;
+  z-index: 1000;
 }
 #content article input[type="text"] {
   width: 300px;
@@ -420,6 +422,9 @@ h2 {
   position: relative;
   top: 200px;
   left: 200px;
+}
+#email-form {
+  z-index: 10000;
 }
 footer {
   background-image: url(../images/line.png);

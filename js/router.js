@@ -20,6 +20,23 @@ define([], function() {
         }
         , initialize: function () {
 	    	Backbone.history.start();
+
+            //submit event handler
+            $('body').on('click','#submit',function(e){
+                e.preventDefault();
+
+                var url = '/mail.php?' + $('#email-form').serialize();
+         
+                // console.log(url);
+
+                $.ajax({
+                    url: url,
+                    success: function(data){
+                        console.log(data);
+                        $('article').html('<div id="login">Thank You, Your message has been sent!</div>');
+                    }
+                });
+            });
 	    }
         , animationSequence: function (){
             $('#pre-loader').hide();
