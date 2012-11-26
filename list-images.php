@@ -1,8 +1,9 @@
 <?php
 $dir = $_GET['dir'];
-$entries = array();
+
 if ($handle = opendir($dir)) {
-   
+    
+    $entries = array();   
     while (false !== ($entry = readdir($handle))) {
         if(!preg_match("/^\./",$entry)){
             $entries[] = "$entry";

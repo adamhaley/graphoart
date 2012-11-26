@@ -27,7 +27,7 @@ define([], function() {
 
                 var url = '/mail.php?' + $('#email-form').serialize();
          
-                // console.log(url);
+                console.log(url);
 
                 $.ajax({
                     url: url,
@@ -38,6 +38,33 @@ define([], function() {
                 });
             });
 	    }
+        , preloadImages: function(){
+            //preloads all images from all galleries on the site
+            $.ajax({
+                    url:'list-images.php'
+                    , data: 'dir=images/gallery/'
+                    , dataType: 'text json'
+                    , success: function(data){
+                        $.each(data.files,function(){
+                            var cat = this.valueOf();
+                            $.ajax({
+                                url: 'list-images.php'
+                                , data: 'dir=images/gallery/' + cat
+                                , dataTyle: 'text json'
+                                , success: function(data){
+                                    $.each(data.files,function(){
+                                       var img = this.valueOf();
+                                       var imgUrl = 'images/gallery/' + cat + '/' + img;
+                                       console.log(imgUrl);
+                                       (new Image()).src = imgUrl;
+                                    });
+                                }
+
+                            });
+                        });
+                    }
+            });            
+        }
         , animationSequence: function (){
             $('#pre-loader').hide();
 
@@ -133,7 +160,7 @@ define([], function() {
                         $('#carousel img:first').load(function(){
                             //opening animation sequence
                             router.animationSequence();
-                           
+                            router.preloadImages();
 
                         });
 
