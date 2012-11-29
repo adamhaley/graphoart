@@ -30,14 +30,14 @@ We can help you shoot your product create your business look and get your site u
 
 <h2 id="headshots">HEAD SHOTS</h2>
 <br /><br />
-Package 1:		1 look    1 retouched photo-    $150  (approx. 1 hr.)<br />
-Package 2:		2 looks  2 retouched photos-  $250  (approx. 2 hrs.)<br />
-Package 3:		3 looks  3 retouched photos-  $325  (approx. 3 hrs.)<br />
-Package 4:		All day   6 retouched photos-  $600  (approx. 6hrs, multiple locations, unlimited looks)<br />
+Package 1:		1 look    1 retouched photo-    $150  (approx. 45 min.)<br />
+Package 2:		2 looks  2 retouched photos-  $250  (approx. 1.5 hrs.)<br />
+Package 3:		3 looks  3 retouched photos-  $325  (approx. 2.5 hrs.)<br />
+Package 4:		unlimited looks   6 retouched photos-  $600  (approx. 5hrs, multiple locations, unlimited looks)<br />
 <br />
 EXTRAS<br />
-- hair and make up artist-  $75<br />
-- all day -  $200<br /><br />
+- hair and make up starts from 1 look -  $75<br />
+- all day -  $250<br /><br />
 
 - all shoots include a cd copy of high resolution images
 <br /><br />
@@ -51,11 +51,12 @@ RETOUCH/ FINE ART<br />
 Rates for a Basic Retouching includes clean up such as, under eyes, blemish, fly away hairs, whiten and sharpen eyes.<br />
 - 1 to 5 photos $25 each<br />
 - 6 to10 photos $22 each<br />
-- 11 or more photos $20 each<br /><br />
-
+- 11 to 15 photos $20 each<br />
+- 16 and more $15 each<br />
+- 25 and more $12 each<br /><br />
 Rates for Advanced Retouching includes things like background changes, tattoo removals, fixing make up problems etc.<br />
 - 1 to 5 photos $35 each<br />
-- 6 to10 photos $32 each<br />
+- 6 to 10 photos $32 each<br />
 - 11 or more photos $30 each<br /><br />
 
 - Major retouching and fine art … please call for quote!
@@ -105,7 +106,7 @@ michaelmorris@graphoart.com<br />
 <h2 id="events">EVENTS</h2>
 <br />
 
-Rates for your Bar/Bat Mitzvah, Quincinera, birthday event or simply a gathering of friends starts at $175 per hour. Additional costs may apply for travel outside of LA. Photos include:<br />
+Rates for your Corporate event, Bar/Bat Mitzvah, Quincinera, birthday event or simply a gathering of friends starts at $175 per hour. Additional costs may apply for travel outside of LA. Photos include:<br />
 - individual color and cropping adjustments to your photo<br />
 - a cd/dvd copy of high quality files.<br /><br />
 
