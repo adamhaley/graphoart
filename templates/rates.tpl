@@ -130,10 +130,14 @@ Please contact us with details about your event for individual pricing.
 BUSINESS CARDS  2"x 3.5"<br />
 - Design: Single Sided $35 Double Sided $45<br />
 - Prints* (eg. double sided color US standard Gloss Coated UV):<br /> 
-100 QTY - $55<br />
-250 QTY - $85		<br />
-500 QTY - $125<br />
-1000 QTY - $155		<br />
+100 QTY - $45
+<br />
+250 QTY - $65
+<br />
+500 QTY - $95
+<br />
+1000 QTY - $125
+<br /> <br />
 *print prices vary depending on single or double sided, type of paper, sizes &amp; print.<br /> 
 Please ask for details.<br /><br />
 

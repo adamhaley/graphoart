@@ -90,7 +90,7 @@ define([], function() {
             setTimeout(showNav, 1000);
             setTimeout(showHeader,700);
             setTimeout(showFooter,700);
-            this.preloadImages();
+            // this.preloadImages();
         }
         , defaultAction: function(){
            
