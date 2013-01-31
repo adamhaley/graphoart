@@ -249,6 +249,12 @@ li#social-links img {
   overflow: hidden;
   padding: 0px;
 }
+#content article.gallery {
+  overflow: hidden;
+}
+#content article.info {
+  overflow: auto;
+}
 #content article #about-content {
   float: left;
   width: 490px;

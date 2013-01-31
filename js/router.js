@@ -107,7 +107,7 @@ define([], function() {
 
             $('a[href$="home"]').addClass('active');
 
-            $('#content article').css('overflow','none');
+            $('#content article').css('overflow','hidden');
 
             $('.bx-wrapper').hide();
            
@@ -189,8 +189,9 @@ define([], function() {
 
             $('.bx-wrapper').hide();
             $('#content nav').html('');
-            $('#content article').css('overflow','auto');
-
+            // $('#content article').css('overflow','auto');
+            $('#content article').removeClass('gallery');
+            $('#content article').addClass('info');
 
             $('#gallery').html(''); 
             var navFile = 'templates/nav-' + which + '.tpl';
@@ -266,8 +267,8 @@ define([], function() {
             $('a').removeClass('active');
             $('a[href$="' + cat + '"]').addClass('active');
 
-            $('#content article').css('overflow','none');
-
+              $('#content article').removeClass('info');
+            $('#content article').addClass('gallery');
 
             var graphicCats = ['retouches','editorial','corporate','logo','media','webdesign'];
             if($.inArray(cat,graphicCats) > -1){
