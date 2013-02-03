@@ -337,7 +337,7 @@ define([], function() {
                             });
                         });
 
-                        $('#gallery img:last').load(function(){
+                        $('#gallery img:eq(5)').load(function(){
                
                             $('#loader').hide(0,function(){
                                 $('.bx-wrapper').show();
