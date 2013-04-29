@@ -12,7 +12,7 @@ define([], function() {
     	routes: {
 
                 'home': 'defaultAction'
-                , 'info/:which': 'showInfo'
+                , 'info/:which': 'transitionShowInfo'
                 , 'gallery/:cat': 'showGallery' 
                 , 'login': 'clientLogin'
                 ,'*actions':'defaultAction'
@@ -171,97 +171,113 @@ define([], function() {
             });
           
         }
-		
+		, transitionShowInfo: function(which){
+            $('#content').addClass('hidden');
+            var _this = this;
+            var showThisInfo = function(){
+                _this.showInfo(which);
+            }
+
+            setTimeout(showThisInfo, 400);
+        }
         , showInfo: function(which){
+            /*
             if(which == 'photography'){
                 window.location.hash = "/gallery/headshots"
             }else if(which == 'graphic-design'){
                 window.location.hash = "/gallery/retouches"
-
             }
-            
+            */
+           $('#content').removeClass('hidden');
+
+
             this.animationSequence();
 
-            $('a').removeClass('active');
-            $('a[href$="' + which + '"]').addClass('active');
-
-            $('#content nav').removeClass('contact');
-
-            $('.bx-wrapper').hide();
-            $('#content nav').html('');
-            // $('#content article').css('overflow','auto');
-            $('#content article').removeClass('gallery');
-            $('#content article').addClass('info');
-
-            $('#gallery').html(''); 
-            var navFile = 'templates/nav-' + which + '.tpl';
-            var contentFile = 'templates/' + which + '.tpl';
-
-            $('article').attr('class','info');
-
-            $.get(navFile,function(data){
-                $('#content nav').html(data);
-               
-                $('#content nav').addClass(which);
-
-                $('#content article').scrollTop(0);
+   
                 
-                //CRAZINESS IN HERE. CLEAN THIS UP!!!!
-                $.get(contentFile,function(data){
-              
-                    $('#content article').html(data);
+                $('a').removeClass('active');
+                $('a[href$="' + which + '"]').addClass('active');
 
-                    if(which=='rates'){
+                $('#content nav').removeClass('contact');
 
-                        var positions = {};
+                $('.bx-wrapper').hide();
+                $('#content nav').html('');
+                // $('#content article').css('overflow','auto');
+                $('#content article').removeClass('gallery');
+                $('#content article').addClass('info');
 
-                        $('#content nav a').each(function(){
-                            var id = $(this).text().toLowerCase();
-                            var scrollPos = $('#' + id).position().top;
-                            positions[id] = scrollPos;  
-                        });
+                $('#gallery').html(''); 
+                var navFile = 'templates/nav-' + which + '.tpl';
+                var contentFile = 'templates/' + which + '.tpl';
 
-                        //remove any click events which may already be attached
-                        $('#content').unbind('click');
+                $('article').attr('class','info');
 
-                        //add the click event delegating nav links
-                        $('#content').on('click','nav.rates a',function(){
+                $.get(navFile,function(data){
+                    $('#content nav').html(data);
                    
-                            var id = $(this).text().toLowerCase();
-                            var scrollPos = positions[id];
+                    $('#content nav').addClass(which);
 
-                            $('#content article').animate({scrollTop: scrollPos},'slow');    
-                        });
+                    $('#content article').scrollTop(0);
+                    
+                    //CRAZINESS IN HERE. CLEAN THIS UP!!!!
+                    $.get(contentFile,function(data){
+                  
+                        $('#content article').html(data);
 
-                    }else if(which=='about'){
-                      
-                        var positions = {};
-                        $('#content nav a').each(function(){
+                        if(which=='rates'){
+
+                            var positions = {};
+
+                            $('#content nav a').each(function(){
+                                var id = $(this).text().toLowerCase();
+                                var scrollPos = $('#' + id).position().top;
+                                positions[id] = scrollPos;  
+                            });
+
+                            //remove any click events which may already be attached
+                            $('#content').unbind('click');
+
+                            //add the click event delegating nav links
+                            $('#content').on('click','nav.rates a',function(){
                        
-                            var id = $(this).attr('id').replace('nav-','');
-                            var scrollPos = $('#' + id).position().top;
-                            console.log(scrollPos);
+                                var id = $(this).text().toLowerCase();
+                                var scrollPos = positions[id];
 
-                            positions[id] = scrollPos;  
-                        });
+                                $('#content article').animate({scrollTop: scrollPos},'slow');    
+                            });
 
-                         //remove any click events which may already be attached
-                        $('#content').unbind('click');
-
-                        //add the click event delegating nav links
-                        $('#content').on('click','nav.about a',function(){
+                        }else if(which=='about'){
+                          
+                            var positions = {};
+                            $('#content nav a').each(function(){
                            
+                                var id = $(this).attr('id').replace('nav-','');
+                                var scrollPos = $('#' + id).position().top;
+                                console.log(scrollPos);
 
-                            var id = $(this).attr('id').replace('nav-','');
-                            var scrollPos = positions[id];
-                            console.log(scrollPos);
+                                positions[id] = scrollPos;  
+                            });
 
-                            $('#content article').animate({scrollTop: scrollPos},'slow');    
-                        });
-                    }
+                             //remove any click events which may already be attached
+                            $('#content').unbind('click');
+
+                            //add the click event delegating nav links
+                            $('#content').on('click','nav.about a',function(){
+                               
+
+                                var id = $(this).attr('id').replace('nav-','');
+                                var scrollPos = positions[id];
+                                console.log(scrollPos);
+
+                                $('#content article').animate({scrollTop: scrollPos},'slow');    
+                            });
+                        }
+
+                    });
                 });
 
-            });
+    
+       
         }
         , showGallery: function(cat){
             $('a').removeClass('active');
