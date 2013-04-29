@@ -1,5 +1,5 @@
 <div id="about-content">
-	<h2 id="about">ABOUT</h2>
+	<h2 id="about">ABOUT</h2><br>
 	<b>Sandra</b> is a German artist, Graphic Designer and Photographer discovering the world.
 With a lifelong passion for art, design and photography Sandra graduated with a 
 degree in Graphic Design, Visual-Media Communication and Illustration. 
@@ -23,9 +23,9 @@ It is an experience that you'll never forget.
 Our goal at GRAPHOART is to bring out the best in our subject and capture that 
 special moment. To make you look and feel amazing is the magic in what we do.
 With each new day comes a new experience. With each shoot a new work of art. 
-We look forward to creating something unique and beautiful with you.
+We look forward to creating something unique and beautiful with you.<br><br>
 
-	<h2 id="testimonials">TESTIMONIALS</h2>
+	<h2 id="testimonials">TESTIMONIALS</h2><br>
 
 After many years of shooting, retouching and designing we appreciate the support and kind words of our clients, fans, friends and 
 family members. We like to share with you those words and like to THANK each one of YOU.
@@ -34,11 +34,11 @@ family members. We like to share with you those words and like to THANK each one
 "To say I had a great shoot with Sandra Simon, would be a huge understatement. I had a five star experience working with her 
 from pre all the way through to post production. She is the perfect blend of professionalism, precision, patience, with a great attitude, 
 energy and enthusiasm. The difficulty my agent had in narrowing down my final picks for my portfolio, because there were so many 
-great choices, is a testament to her work." - Aviel AV Ayoung (Dancer,Actor)
+great choices, is a testament to her work." - <i>Aviel AV Ayoung (Dancer,Actor)</i>
 <br /><br />
-"Your photos are beautiful, you do an amazing job. God Bless you." -  Virginia Lopez
+"Your photos are beautiful, you do an amazing job. God Bless you." - <em>Virginia Lopez</em>
 <br /><br />
-"amazing shots of my daughter LOVE THEM! :) - Jedda Roskilly
+"amazing shots of my daughter LOVE THEM! :) - <em>Jedda Roskilly</em>
 <br /><br />
 
 "Hey Sandra!!!! It was great to work together today! Such a nice and professional work!!" - Julian Jordan (Actor, Model)
