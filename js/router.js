@@ -188,7 +188,7 @@ define([], function() {
                 window.location.hash = "/gallery/retouches"
             }
             */
-           $('#content').removeClass('hidden');
+  
 
 
             this.animationSequence();
@@ -277,7 +277,7 @@ define([], function() {
                 });
 
     
-       
+            $('#content').removeClass('hidden');
         }
         , showGallery: function(cat){
             $('a').removeClass('active');
