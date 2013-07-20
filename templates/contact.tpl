@@ -1,4 +1,4 @@
-Please don't hesitate to contact us with requests, questions, project ideas or comments about our work.<br /><br />
+Please don't hesitate to contact me with requests, questions, project ideas or comments about my work.<br /><br />
 
 <img src="images/sandra_and_michael.png" id="contact-heading"/><br />
 <br />
