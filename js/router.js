@@ -107,7 +107,7 @@ define([], function() {
 
             $('a[href$="home"]').addClass('active');
 
-            $('#content article').css('overflow','hidden');
+            //$('#content article').css('overflow','hidden');
 
             $('.bx-wrapper').hide();
            
@@ -171,30 +171,19 @@ define([], function() {
             });
           
         }
-		, transitionShowInfo: function(which){
+	, transitionShowInfo: function(which){
             $('#content').addClass('hidden');
             var _this = this;
             var showThisInfo = function(){
                 _this.showInfo(which);
             }
 
-            setTimeout(showThisInfo, 400);
+            setTimeout(showThisInfo, 600);
         }
         , showInfo: function(which){
-            /*
-            if(which == 'photography'){
-                window.location.hash = "/gallery/headshots"
-            }else if(which == 'graphic-design'){
-                window.location.hash = "/gallery/retouches"
-            }
-            */
-  
-
-
+            
             this.animationSequence();
-
-   
-                
+             
                 $('a').removeClass('active');
                 $('a[href$="' + which + '"]').addClass('active');
 
