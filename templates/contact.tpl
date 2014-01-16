@@ -1,6 +1,6 @@
 Please don't hesitate to contact me with requests, questions, project ideas or comments about my work.<br /><br />
 
-<img src="images/sandra_and_michael.png" id="contact-heading"/><br />
+<img src="images/sandra.png" id="contact-heading"/><br />
 <br />
 <form name="email" id="email-form">
 Enter your name:<br />

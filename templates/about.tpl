@@ -6,8 +6,8 @@ degree in Graphic Design, Photography, Visual-Media Communication and Illustrati
 She now specialises in photography, design and print media. 
 Hired by corporate, governmental and private clients, Sandra completed a wide 
 range of shoots and design jobs in different European countries as well as in Asia and the
-United States. In photography she looks for the unique kind of her model to capture
-the amazing beauty and drama in each one. Inspired by cultures and people
+United States. In photography she finds the unique in her model and captures
+the beauty and drama in each one. Inspired by cultures and people
 she developed a passion for art and traveling.
 <br /><br />
 
@@ -24,7 +24,6 @@ family members. We like to share with you those words and like to THANK each one
 
 "I love working with Sandra because she's an awesome person but also because as my photographer, she understand what story I want to tell through the pictures and she successfully shoots it. During the shoot, she's very helpful, has great ideas, makes you feel relaxed and is dedicated to you.  The photos she took are amazing. Thank you so much Sandra." - <i>Delphine Perroud</i>
 <br /><br />
-
 "To say I had a great shoot with Sandra Simon, would be a huge understatement. I had a five star experience working with her 
 from pre all the way through to post production. She is the perfect blend of professionalism, precision, patience, with a great attitude, 
 energy and enthusiasm. The difficulty my agent had in narrowing down my final picks for my portfolio, because there were so many 
@@ -34,17 +33,24 @@ great choices, is a testament to her work." - <i>Aviel AV Ayoung (Dancer,Actor)<
 <br /><br />
 "Amazing shots of my daughter LOVE THEM! :) - <em>Jedda Roskilly</em>
 <br /><br />
+"Sandra is incredibly creative and very easy to work with. She created a wonderful poster for me when no other graphic designer was able to capture the essence of what I was looking for. I highly recommend her creative talents and personality!" - Philippe Wee (Director)
+<br /><br />
 "My headshot for my Million Dollar Listing audition." - <em>Jeff Mendoza</em>
 <br /><br />
-"Graphoart is amazing. My agent wanted me to get new headshots and I called Sandra to get them done. I asked for a specific look and with their expertise, I got it. Both my theatrical and commercial agent said they were excellent and both agents picked out their favorites to work with. Looking forward to a excellent year with these pictures. I highly recommend Graphoart for your headshots! - Vanessa Suarez (Actress)
+"Graphoart is amazing. My agent wanted me to get new headshots and I called Sandra to get them done. I asked for a specific look and with their expertise, I got it. Both my theatrical and commercial agent said they were excellent and both agents picked out their favorites to work with. Looking forward to a excellent year with these pictures. I highly recommend Graphoart for your headshots!" - Vanessa Suarez (Actress)
 <br /><br />
 "Striking photos. AMAZING work always! - <em>Tania L Talenti</em>
 <br /><br />
 "Hey Sandra!!!! It was great to work together today! Such a nice and professional work!!" - Julian Jordan (Actor, Model)
 <br /><br />
+"Sandra Simon, I don't know where to begin. 
+You have created some of my most amazing images that has gotten a lot of attention by Casting Directors or other Industry professionals. You understand your clients' goals and always come up with your own creative ideas to enhance and create artistic work. Thank you for your unparalleled talent. I look forward to working with you again and can only recommend you to anyone who's looking to stand out!" - Seli Marset (Actress, Model)
+<br /><br />
 "Had such a great shoot with Sandra Simon. Guys I suggest shooting with a female photographer... I felt a lot more comfortable." - Max Davids (Producer, Director)
 <br /><br />
 "wow wow wow that is so sick I love them All! Thank you so much! You are very good." - Punk Kouture (Fashion Designer
+<br /><br />
+"Sandra is very warm and comforting on a set. Very flexible, and great at what she does." - Kimo Koeke (Actor, Stuntman)
 <br /><br />
 "Thanks for catching my sons 1st time in the sandbox. Love these shots!" - Sara Matias
 <br /><br />
@@ -58,15 +64,13 @@ She easily is my preferred photographer and visual designer when it comes to get
 <br /><br />
 "Sandra you are so talented! I love your work." - Rita Jones 
 <br /><br />
+Sandra is one of the most gifted and passionate photographers I have ever had the pleasure of working with. She has a very creative eye, and is dedicated to a high quality of work that is ever increasing." - Jason DeHanley (Videographer at FromTheGroundUp Productions)
+<br /><br />
 "Sandra - you are really good!! Pics are amazing!! :)"  - Suzi Tan 
 <br /><br />
-"Sandra was amazing. She creates a casual and comfortable environment to shoot and then she guides you along the way to get 
-your best shots and angles." - Bryan Chan (Dancer, Singer)
+"Sandra was amazing. She creates a casual and comfortable environment to shoot and then she guides you along the way to get your best shots and angles." - Bryan Chan (Dancer, Singer)
 <br /><br />
-"In a field of numerous graphic designers, I have never worked with anybody who stood out more than Sandra as she was able to 
-create a design concept for us that was simply unmatched to anybody else who previously attempted it and her passion and 
-dedication was duly noted as she put in extra hours of her own time into the project.  
-I would recommend Sandra to anybody!" - Philippe Wee (Director, Producer)
+"In a field of numerous graphic designers, I have never worked with anybody who stood out more than Sandra as she was able to create a design concept for us that was simply unmatched to anybody else who previously attempted it and her passion and dedication was duly noted as she put in extra hours of her own time into the project. I would recommend Sandra to anybody!" - Philippe Wee (Director, Producer)
 <br /><br />
 "What an amazing pictures Sandra!" - Zuzana Lova  (Dancer, Actress)
 <br /><br />
@@ -76,10 +80,9 @@ I would recommend Sandra to anybody!" - Philippe Wee (Director, Producer)
 <br /><br />
 "Wow... I can almost feel the energy just by seeing the photos!" - Minn Vo
 <br /><br />
-"Thanks for all the great pictures Sandra!" - Noelle Naone Brechler  (Dancer)
+It was a pleasure to work with Sandra on several occasions. She is trustworthy, consistent, and reliable. She is very creative and delivers high quality results. I strongly recommend her for your projects! - Max Davids (Producer, Founder/CEO/President at Hollywood Agency, LLC)
 <br /><br />
-"When are you coming back to London!? I need you to do my headshots, 
-you are way better than most of the photographers here! ;)" - Vanessa Zachos 
+"When are you coming back to London!? I need you to do my headshots, You are way better than most of the photographers here! ;)" - Vanessa Zachos 
 <br /><br />
 "Some people have lenses for eyes, and Sandra Simon is one of those gifted people. She takes visual perception to heightened 
 levels, creating stimulating visuals. True passion for photography exudes from her work, leaving you wanting more, much more! 
@@ -125,6 +128,8 @@ to Sandra Simon for all your hard work putting it together!" - Oj Bear (Bartende
 "Unique! Such a gifted woman." - Nadine Lee (Actress, Writer, Director, Producer)
 <br /><br />
 "Great work as always:)" - Chero Leitich (Actress, Model)
+<br /><br />
+"Thanks for all the Great pictures Sandra!" - Noelle Naone Brechler  (Dancer)
 <br /><br />
 "You make hot guys look hotter!!" - Tania L Talenti 
 <br /><br />
@@ -180,5 +185,7 @@ These are very nice shots! Love them"! Mateusz Przepiórkowski
 "Ahhh yay Sandra thank you so much!!!!!!!!! Love love love them!!!!" - Cara Nicole Schweinsberg (Dancer)
 <br /><br />
 "Your Pics are amazingly beautiful." -  Blue Jay
+"�"
+<br /><br />
 </div>
 <img src="images/about.png" id="about-photo" />
