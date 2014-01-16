@@ -27,12 +27,11 @@ define([], function() {
 
                 var url = '/mail.php?' + $('#email-form').serialize();
          
-                console.log(url);
 
                 $.ajax({
                     url: url,
                     success: function(data){
-                        console.log(data);
+
                         $('article').html('<div id="login">Thank You, Your message has been sent!</div>');
                     }
                 });
@@ -55,7 +54,7 @@ define([], function() {
                                     $.each(data.files,function(){
                                        var img = this.valueOf();
                                        var imgUrl = 'images/gallery/' + cat + '/' + img;
-                                       console.log(imgUrl);
+                                       
                                        (new Image()).src = imgUrl;
                                     });
                                 }
@@ -131,8 +130,7 @@ define([], function() {
 
                     }
                     , success: function(data){
-                        console.log('success');
-                        // console.log(data.files);
+                      
                        
                         $.each(data.files,function(){
                             
@@ -242,7 +240,7 @@ define([], function() {
                            
                                 var id = $(this).attr('id').replace('nav-','');
                                 var scrollPos = $('#' + id).position().top;
-                                console.log(scrollPos);
+                                
 
                                 positions[id] = scrollPos;  
                             });
@@ -256,7 +254,7 @@ define([], function() {
 
                                 var id = $(this).attr('id').replace('nav-','');
                                 var scrollPos = positions[id];
-                                console.log(scrollPos);
+                               
 
                                 $('#content article').animate({scrollTop: scrollPos},'slow');    
                             });
@@ -308,9 +306,7 @@ define([], function() {
 
                     }
                     , success: function(data){
-                        console.log('success');
-                        // console.log(data.files);
-                       
+    
                         var galleryHtml = '<ul>';
                         $.each(data.files,function(){
                             
@@ -336,7 +332,6 @@ define([], function() {
                         $('#gallery img').each(function(i){
                             
                             $(this).load(function(){
-                                console.log(ct);
                                 $('#imgcount').html(ct);
                                 ct++;
                             });
@@ -358,11 +353,9 @@ define([], function() {
             loadGallery();
         }
         ,clientLogin: function(){
-            console.log('login');
-
               this.animationSequence();
             $('article').html('<div id="login">Client login Coming soon...</div>');
-            // $('#content').html();
+            
         }
 	})
     , router = new AppRouter;
