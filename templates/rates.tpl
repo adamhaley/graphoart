@@ -128,7 +128,7 @@ Please contact us with details about your event for individual pricing.
 <br /><br />
 
 
-<h2 id="graphic design">GRAPHIC DESIGN</h2>
+<h2 id="graphics">GRAPHIC DESIGN</h2>
 The pricing structure depends greatly on the specifics of your project, but know that I provide competitive <br />
 and affordable graphic design rates and I will do my best to work within your budgetary restrictions. <br />
 Below is a basic overview of my rates.<br /><br />
