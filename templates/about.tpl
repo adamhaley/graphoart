@@ -6,14 +6,12 @@ degree in Graphic Design, Photography, Visual-Media Communication and Illustrati
 She now specialises in photography, design and print media. 
 Hired by corporate, governmental and private clients, Sandra completed a wide 
 range of shoots and design jobs in different European countries as well as in Asia and the
-United States. In photography she finds the unique in her model and captures
-the beauty and drama in each one. Inspired by cultures and people
-she developed a passion for art and traveling.
+United States. If photography or design work, she finds and creates the unique in each project. Inspired by cultures and people she developed a passion for art and traveling.
 <br /><br />
 
-The goal of GRAPHOART's team is to bring out the best in our subject and capture that 
-special moment. To make you look and feel amazing is the magic in what we do.
-With each new day comes a new experience. With each shoot a new work of art. 
+The goal of her company GRAPHOART is to bring out the utmost best in each subject and capture or create that 
+special moment. To make you look and feel amazing in pictures is the magic in what I do.
+With each new day comes a new experience. With each project a new piece of art. 
 I look forward to create something unique and beautiful with you.<br><br>
 
 	<h2 id="testimonials">TESTIMONIALS</h2><br>
@@ -22,6 +20,18 @@ After many years of shooting, retouching and designing we appreciate the support
 family members. We like to share with you those words and like to THANK each one of YOU.
 <br /><br />
 
+"Sandra is very warm and comforting on a set. Very flexible, and great at what she does." - <i>Kimo Keoke, Entertainment Professional</i>
+<br /><br />
+"Sandra is one of the most gifted and passionate photographers I have ever had the pleasure of working with. She has a very creative eye, and is dedicated to a high quality of work that is ever increasing." - <i>Jason Dehan, Videographer at FromTheGroundUp Productions</i>
+<br /><br />
+"Sandra Simon, I don't know where to begin. 
+You have created some of my most amazing images that has gotten a lot of attention by Casting Directors or other Industry professionals. You understand your clients' goals and always come up with your own creative ideas to enhance and create artistic work. Thank you for your unparalleled talent. I look forward to working with you again and can only recommend you to anyone who's looking to stand out!!" - <i> Selda Mart, Actress / CEO of Lead Productions</i>
+<br /><br />
+"Sandra is incredibly creative and very easy to work with. She created a wonderful poster for me when no other graphic designer was able to capture the essence of what I was looking for. I highly recommend her creative talents and personality!" - <i>Philippe Wee, Producer/Director </i>
+<br /><br />
+"Sandra is an incredible photographer! I love her work and I love the results she gave me. 
+I did a shoot with Sandra and she made me feel comfortable an confident.The photos came out beautiful!! I know I can trust her and will work with her again in the future." - <i>Lidia Garcia, Columbia University Social Enterprise Administration, School of Social Work</i>
+<br /><br />
 "I love working with Sandra because she's an awesome person but also because as my photographer, she understand what story I want to tell through the pictures and she successfully shoots it. During the shoot, she's very helpful, has great ideas, makes you feel relaxed and is dedicated to you.  The photos she took are amazing. Thank you so much Sandra." - <i>Delphine Perroud</i>
 <br /><br />
 "To say I had a great shoot with Sandra Simon, would be a huge understatement. I had a five star experience working with her 
