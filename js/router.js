@@ -21,6 +21,11 @@ define([], function() {
         , initialize: function () {
 	    	Backbone.history.start();
 
+            //current date in footer
+            var year = new Date().getFullYear();
+            $('footer').find('.current-year').text(year);
+
+
             //submit event handler
             $('body').on('click','#submit',function(e){
                 e.preventDefault();
@@ -206,7 +211,6 @@ define([], function() {
 
                     $('#content article').scrollTop(0);
                     
-                    //CRAZINESS IN HERE. CLEAN THIS UP!!!!
                     $.get(contentFile,function(data){
                   
                         $('#content article').html(data);
