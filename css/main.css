@@ -5,9 +5,9 @@ body {
   font-size: 11px;
 }
 header {
-  background-image: url(../images/logo.png);
   width: 363px;
   height: 144px;
+  background-position: 10px;
   /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@value)";
   /* IE 5-7 */
