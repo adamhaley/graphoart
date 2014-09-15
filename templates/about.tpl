@@ -10,14 +10,14 @@ United States. If photography or design work, she finds and creates the unique i
 <br /><br />
 
 The goal of her company GRAPHOART is to bring out the utmost best in each subject and capture or create that 
-special moment. To make you look and feel amazing in pictures is the magic in what I do.
+special moment. To make you look and feel amazing in pictures is the magic in what she does.
 With each new day comes a new experience. With each project a new piece of art. 
-I look forward to create something unique and beautiful with you.<br><br>
+She is looking forward to create something unique and beautiful with you.<br><br>
 
 	<h2 id="testimonials">TESTIMONIALS</h2><br>
 
-After many years of shooting, retouching and designing we appreciate the support and kind words of our clients, fans, friends and 
-family members. We like to share with you those words and like to THANK each one of YOU.
+After many years of shooting, retouching and designing we appreciate the support and kind words of her clients, fans, friends and 
+family members. She likes to share with you those words and like to THANK each one of YOU.
 <br /><br />
 
 "Sandra is very warm and comforting on a set. Very flexible, and great at what she does." - <i>Kimo Keoke, Entertainment Professional</i>
@@ -39,132 +39,135 @@ from pre all the way through to post production. She is the perfect blend of pro
 energy and enthusiasm. The difficulty my agent had in narrowing down my final picks for my portfolio, because there were so many 
 great choices, is a testament to her work." - <i>Aviel AV Ayoung (Dancer,Actor)</i>
 <br /><br />
-"Your photos are beautiful, you do an amazing job. God Bless you." - <em>Virginia Lopez</em>
+"Your photos are beautiful, you do an amazing job. God Bless you." - <i>Virginia Lopez</i>
 <br /><br />
-"Amazing shots of my daughter LOVE THEM! :) - <em>Jedda Roskilly</em>
+"Amazing shots of my daughter LOVE THEM! :) - <i>Jedda Roskilly</i>
 <br /><br />
-"Sandra is incredibly creative and very easy to work with. She created a wonderful poster for me when no other graphic designer was able to capture the essence of what I was looking for. I highly recommend her creative talents and personality!" - Philippe Wee (Director)
+"Sandra is incredibly creative and very easy to work with. She created a wonderful poster for me when no other graphic designer was able to capture the essence of what I was looking for. I highly recommend her creative talents and personality!" - <i>Philippe Wee (Director)</i>
 <br /><br />
-"My headshot for my Million Dollar Listing audition." - <em>Jeff Mendoza</em>
+"My headshot for my Million Dollar Listing audition." - <i>Jeff Mendoza</i>
 <br /><br />
-"Graphoart is amazing. My agent wanted me to get new headshots and I called Sandra to get them done. I asked for a specific look and with their expertise, I got it. Both my theatrical and commercial agent said they were excellent and both agents picked out their favorites to work with. Looking forward to a excellent year with these pictures. I highly recommend Graphoart for your headshots!" - Vanessa Suarez (Actress)
+"Graphoart is amazing. My agent wanted me to get new headshots and I called Sandra to get them done. I asked for a specific look and with their expertise, I got it. Both my theatrical and commercial agent said they were excellent and both agents picked out their favorites to work with. Looking forward to a excellent year with these pictures. I highly recommend Graphoart for your headshots!" - <i>Vanessa Suarez (Actress)</i>
 <br /><br />
-"Striking photos. AMAZING work always! - <em>Tania L Talenti</em>
+"Striking photos. AMAZING work always! - </>Tania L Talenti</i>
 <br /><br />
-"Hey Sandra!!!! It was great to work together today! Such a nice and professional work!!" - Julian Jordan (Actor, Model)
+"Hey Sandra!!!! It was great to work together today! Such a nice and professional work!!" - <i>Julian Jordan (Actor, Model)</i>
 <br /><br />
 "Sandra Simon, I don't know where to begin. 
-You have created some of my most amazing images that has gotten a lot of attention by Casting Directors or other Industry professionals. You understand your clients' goals and always come up with your own creative ideas to enhance and create artistic work. Thank you for your unparalleled talent. I look forward to working with you again and can only recommend you to anyone who's looking to stand out!" - Seli Marset (Actress, Model)
+You have created some of my most amazing images that has gotten a lot of attention by Casting Directors or other Industry professionals. You understand your clients' goals and always come up with your own creative ideas to enhance and create artistic work. Thank you for your unparalleled talent. I look forward to working with you again and can only recommend you to anyone who's looking to stand out!" - <i>Seli Marset (Actress, Model)</i>
 <br /><br />
-"Had such a great shoot with Sandra Simon. Guys I suggest shooting with a female photographer... I felt a lot more comfortable." - Max Davids (Producer, Director)
+"Had such a great shoot with Sandra Simon. Guys I suggest shooting with a female photographer... I felt a lot more comfortable." - <i>Max Davids (Producer, Director)</i>
 <br /><br />
-"wow wow wow that is so sick I love them All! Thank you so much! You are very good." - Punk Kouture (Fashion Designer
+"wow wow wow that is so sick I love them All! Thank you so much! You are very good." - <i>Punk Kouture (Fashion Designer)</i>
 <br /><br />
-"Sandra is very warm and comforting on a set. Very flexible, and great at what she does." - Kimo Koeke (Actor, Stuntman)
+"Sandra is very warm and comforting on a set. Very flexible, and great at what she does." - <i>Kimo Koeke (Actor, Stuntman)</i>
 <br /><br />
-"Thanks for catching my sons 1st time in the sandbox. Love these shots!" - Sara Matias
+"Thanks for catching my sons 1st time in the sandbox. Love these shots!" - <i>Sara Matias</i>
 <br /><br />
-"Amazing Sandra!" - Taurus DeWayne Lowe (Actor)
+"Amazing Sandra!" - <i>Taurus DeWayne Lowe (Actor)</i>
 <br /><br />
 "Sandra Simon's work is nothing short of amazing. She is not only able to convert and shape your ideas into concrete manifestations 
 which perfectly express your inner vision but also brings an utmost degree of professionalism and dedication to the table. 
-She easily is my preferred photographer and visual designer when it comes to getting a complex job done!" - David Beth M.A. (Author)
+She easily is my preferred photographer and visual designer when it comes to getting a complex job done!" - <i>David Beth M.A. (Writer, Author)</i>
 <br /><br />
-"Love them wowwww!!!!" - Seidy Carrera  (Dancer)
+"Love them wowwww!!!!" - <i>Seidy Carrera  (Dancer)</i>
 <br /><br />
-"Sandra you are so talented! I love your work." - Rita Jones 
+"Sandra you are so talented! I love your work." - <i>Rita Jones</i>
 <br /><br />
-Sandra is one of the most gifted and passionate photographers I have ever had the pleasure of working with. She has a very creative eye, and is dedicated to a high quality of work that is ever increasing." - Jason DeHanley (Videographer at FromTheGroundUp Productions)
+Sandra is one of the most gifted and passionate photographers I have ever had the pleasure of working with. She has a very creative eye, and is dedicated to a high quality of work that is ever increasing." - <i>Jason DeHanley (Videographer at FromTheGroundUp Productions)</i>
 <br /><br />
-"Sandra - you are really good!! Pics are amazing!! :)"  - Suzi Tan 
+"Sandra - you are really good!! Pics are amazing!! :)"  - <i>Suzi Tan</i>
 <br /><br />
-"Sandra was amazing. She creates a casual and comfortable environment to shoot and then she guides you along the way to get your best shots and angles." - Bryan Chan (Dancer, Singer)
+"Sandra was amazing. She creates a casual and comfortable environment to shoot and then she guides you along the way to get your best shots and angles." - <i>Bryan Chan (Dancer, Singer)</i>
 <br /><br />
-"In a field of numerous graphic designers, I have never worked with anybody who stood out more than Sandra as she was able to create a design concept for us that was simply unmatched to anybody else who previously attempted it and her passion and dedication was duly noted as she put in extra hours of her own time into the project. I would recommend Sandra to anybody!" - Philippe Wee (Director, Producer)
+"In a field of numerous graphic designers, I have never worked with anybody who stood out more than Sandra as she was able to create a design concept for us that was simply unmatched to anybody else who previously attempted it and her passion and dedication was duly noted as she put in extra hours of her own time into the project. I would recommend Sandra to anybody!" - <i>Philippe Wee (Director, Producer)</i>
 <br /><br />
-"What an amazing pictures Sandra!" - Zuzana Lova  (Dancer, Actress)
+"What an amazing pictures Sandra!" - <i>Zuzana Lova  (Dancer, Actress)</i>
 <br /><br />
-"Amaaaaazing shots.. Did you get any of me.." - Paris Paul (Dancer)
+"Amaaaaazing shots.. Did you get any of me.." -<i> Paris Paul (Dancer)</i>
 <br /><br />
-"I had an incredible experience with GRAPHOART! I was a little nervous because it was my first Boudouir style shoot, but Sandra and Michael are so professional and amazing that I felt comfortable and beautiful right away. They are amazing artists and I couldn't be happier with the quality of their work. I am so happy to have worked with GRAPHOART and to have such beautiful photos to express who I am. Thank you Sandra!!!" - Lidia Garcia
+"I had an incredible experience with GRAPHOART! I was a little nervous because it was my first Boudouir style shoot, but Sandra and Michael are so professional and amazing that I felt comfortable and beautiful right away. They are amazing artists and I couldn't be happier with the quality of their work. I am so happy to have worked with GRAPHOART and to have such beautiful photos to express who I am. Thank you Sandra!!!" - <i>Lidia Garcia</i>
 <br /><br />
-"Wow... I can almost feel the energy just by seeing the photos!" - Minn Vo
+"Wow... I can almost feel the energy just by seeing the photos!" - <i>Minn Vo</i>
 <br /><br />
-It was a pleasure to work with Sandra on several occasions. She is trustworthy, consistent, and reliable. She is very creative and delivers high quality results. I strongly recommend her for your projects! - Max Davids (Producer, Founder/CEO/President at Hollywood Agency, LLC)
+It was a pleasure to work with Sandra on several occasions. She is trustworthy, consistent, and reliable. She is very creative and delivers high quality results. I strongly recommend her for your projects! - <i>Max Davids (Producer, Founder/CEO/President at Hollywood Agency, LLC)</i>
 <br /><br />
-"When are you coming back to London!? I need you to do my headshots, You are way better than most of the photographers here! ;)" - Vanessa Zachos 
+"When are you coming back to London!? I need you to do my headshots, You are way better than most of the photographers here! ;)" - <i>Vanessa Zachos </i>
 <br /><br />
 "Some people have lenses for eyes, and Sandra Simon is one of those gifted people. She takes visual perception to heightened 
 levels, creating stimulating visuals. True passion for photography exudes from her work, leaving you wanting more, much more! 
-I'm looking forward to future projects with no hesitation." - Tania Talenti (Human Recourses)
+I'm looking forward to future projects with no hesitation." - <i>Tania Talenti (Human Recourses)</i>
 <br /><br />
-"Yes!! Sandra really caught REAL moments from each act so far!!! So great!" - Sascha Escandon (Dancer, Coordinator)
+"Yes!! Sandra really caught REAL moments from each act so far!!! So great!" - <i>Sascha Escandon (Dancer, Coordinator)</i>
 <br /><br />
-" ‎... woooow infinity" - Lyndsay Haldorson (Singer, Dancer)
+"I thought it was really easy to contact GraPhoArt and to schedule with Sandra. She were very responsive and accommodating of my short timeline.
+I think the location she picked for my shoot was great. There were a lot of options to choose from at the end and I am really happy with the final product."
+- <i> Lauren Gase </i>
+" ‎... woooow infinity" - <i>Lyndsay Haldorson (Singer, Dancer)</i>
 <br /><br />
-"wow, talk about amazing photography!! Absolutely beautiful!!" - Brittany Espinoza 
+"wow, talk about amazing photography!! Absolutely beautiful!!" - <i>Brittany Espinoza </i>
 <br /><br />
-"Great shots!!! Thank you" - Carlos Rodgarman 
+"Great shots!!! Thank you" - <i>Carlos Rodgarman </i>
 <br /><br />
-"Outstanding classic stunning perfection as always..... very nice so jealous." - Kevin Hahn (Photographer)
+"Outstanding classic stunning perfection as always..... very nice so jealous." - <i>Kevin Hahn (Photographer)</i>
 <br /><br />
 "Sandra is a fantastic, creative and very talented photographer! She understands, listens, doesn’t rush you and makes you feel very 
 comfortable in front of the camera. She has created some of the most AMAZING photographs of me. 
-Thank you Sandra!!!" - Seli Marset (Actress, Model, Writer, Director)
+Thank you Sandra!!!" - <i>Seli Marset (Actress, Model, Writer, Director)</i>
 <br /><br />
 "Good Job! love the tone of your pics." - MartínYernazian 
 <br /><br />
-"Absolutely love these photos!! Beautiful!" - Natacha Soraya Bachour (Dancer, Model)
+"Absolutely love these photos!! Beautiful!" - <i>Natacha Soraya Bachour (Dancer, Model)</i>
 <br /><br />
 "Shooting with Sandra was great, not only do my theatrical shots get me in to the big auditions, it was fun and relaxing during the 
-shoot!" - Desi Jevon (Dancer, Actor, Producer)
+shoot!" - <i>Desi Jevon (Dancer, Actor, Producer)</i>
 <br /><br />
-"Best set photographer ever! :D" - Nadine Lee (Actress, Writer, Director)
+"Best set photographer ever! :D" - <i>Nadine Lee (Actress, Writer, Director)</i>
 <br /><br />
 "Sandra captured everything that salsa is during our shoot: HOT, SEXY, and  PASSIONATE!"
- - Desi Jevon (Co-creator of Angeleno Funk Dance Company)
+ - <i>Desi Jevon (Co-creator of Angeleno Funk Dance Company)</i>
 <br /><br />
-"I love these! Which I had you ard when I got married !" - Yasmin A.R. Lazaroo 
+"I love these! Which I had you ard when I got married !" - <i>Yasmin A.R. Lazaroo </i>
 <br /><br />
-"WOW Sandra! This is such amazing work! I love it" - Lora Young-ae (Bartender, Dancer)
+"WOW Sandra! This is such amazing work! I love it" - <i>Lora Young-ae (Bartender, Dancer)</i>
 <br /><br />
-" LOVE IT ♥♥♥ SOOO COOL ^_^" - Christopher Xavier Lozano (Photographer)
+" LOVE IT ♥♥♥ SOOO COOL ^_^" - <i>Christopher Xavier Lozano (Photographer)</i>
 <br /><br />
-"Sandra you are so talented! I love your work." - Rita Jones 
+"Sandra you are so talented! I love your work." - <i>Rita Jones </i>
 <br /><br />
 "The amazingly talented Sheri Godfrey's website is up and running! Everyone take a look and let us know what you think. Thank you 
-to Sandra Simon for all your hard work putting it together!" - Oj Bear (Bartender, Manager)
+to Sandra Simon for all your hard work putting it together!" - <i>Oj Bear (Bartender, Manager)</i>
 <br /><br />
-"Unique! Such a gifted woman." - Nadine Lee (Actress, Writer, Director, Producer)
+"Unique! Such a gifted woman." - <i>Nadine Lee (Actress, Writer, Director, Producer)</i>
 <br /><br />
-"Great work as always:)" - Chero Leitich (Actress, Model)
+"Great work as always:)" - <i>Chero Leitich (Actress, Model)</i>
 <br /><br />
-"Thanks for all the Great pictures Sandra!" - Noelle Naone Brechler  (Dancer)
+"Thanks for all the Great pictures Sandra!" - <i>Noelle Naone Brechler  (Dancer)</i>
 <br /><br />
-"You make hot guys look hotter!!" - Tania L Talenti 
+"You make hot guys look hotter!!" - <i>Tania L Talenti </i>
 <br /><br />
-"As always great stunning work Sandra, as usual never cease to amaze and inspire us." - Kevin Hahn 
+"As always great stunning work Sandra, as usual never cease to amaze and inspire us." - <i>Kevin Hahn </i>
 <br /><br />
-"Sandra! These are amazing!!!" - Piran Zarifian (Producer, Director)
+"Sandra! These are amazing!!!" - <i>Piran Zarifian (Producer, Director)</i>
 <br /><br />
-"Amazing! ;0) thank u for being there!" - Katerina Goode (Dancer)
+"Amazing! ;0) thank u for being there!" - <i>Katerina Goode (Dancer)</i>
 <br /><br />
-"She is the best " - Andrea Schön (Singer)
+"She is the best " - <i>Andrea Schön (Singer)</i>
 <br /><br />
-"Amazing photos, love them" - Yesenia Serratos-Santiago  (Dancer)
+"Amazing photos, love them" - <i>Yesenia Serratos-Santiago  (Dancer)</i>
 <br /><br />
-"Really exceptional work, Sandra...! Gorgeous in ALL aspects: light, color, composition, detail, finish, models... Love it!!" - Ross Grayson 
+"Really exceptional work, Sandra...! Gorgeous in ALL aspects: light, color, composition, detail, finish, models... Love it!!" - <i>Ross Grayson </i>
 <br /><br />
-"Thank you Sandra. It's always an honor to shoot with a talented photographer!" - Seli Mart  (Actress, Writer, Model)
+"Thank you Sandra. It's always an honor to shoot with a talented photographer!" - <i>Seli Mart  (Actress, Writer, Model)</i>
 <br /><br />
-"I want in this folder. :)" - Khalilah Yasmin 
+"I want in this folder. :)" -<i> Khalilah Yasmin </i>
 <br /><br />
-"Great pictures!!!" - Brynn Bromley
+"Great pictures!!!" - <i>Brynn Bromley</i>
 <br /><br />
 "WOW." - Robert Burnett 
 <br /><br />
 "I love them!! They are great &amp; you are truly Amazing!!! It was a great photo shoot, Sandra! You are just with two words so 
-Talented &amp; so Amazing! " - Selma Marset (Actress, Writer)
+Talented &amp; so Amazing! " - <i>Selma Marset (Actress, Writer)</i>
 <br /><br />
 "Lovely pics!" - Shyamtara FlyingNomad 
 <br /><br />

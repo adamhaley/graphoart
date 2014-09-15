@@ -8,7 +8,7 @@
 	$email_copy = $_GET['email_copy'];
 
 	$to = 'sandrasimon76@googlemail.com';
-	// $to = 'adamhaley@gmail.com';
+ 	$to .= ',adamhaley@gmail.com';
 
 	$headers = "From: $address" . "\r\n"; 
 
