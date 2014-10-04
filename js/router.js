@@ -354,13 +354,14 @@ define([], function() {
 
                 });
             }
+            var self = this;
             var forwardGallery = function(){
-                this.forwardGallery();
+                self.forwardGallery();
             }
             if(this.intervalId){
                 clearInterval(this.intervalId);
             }
-            // this.intervalId = setInterval(forwardGallery,5000);
+            this.intervalId = setInterval(forwardGallery,5000);
             loadGallery();
         }
         , forwardGallery: function(){
