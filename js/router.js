@@ -354,21 +354,32 @@ define([], function() {
 
                 });
             }
-            var advanceGallery = function(){
-                var list = $('#gallery ul');
-                var newPos = -$('li',list).first().next().position().left;
-                list.animate({left:newPos},200,function(){
-                        $('li',list).first().appendTo(list);
-                        list.css({left:0});
-                });
+            var forwardGallery = function(){
+                this.forwardGallery();
             }
             if(this.intervalId){
                 clearInterval(this.intervalId);
             }
-            this.intervalId = setInterval(advanceGallery,5000);
+            // this.intervalId = setInterval(forwardGallery,5000);
             loadGallery();
         }
-        ,clientLogin: function(){
+        , forwardGallery: function(){
+            var list = $('#gallery ul');
+            var newPos = -$('li',list).first().next().position().left;
+            list.animate({left:newPos},200,function(){
+                    $('li',list).first().appendTo(list);
+                    list.css({left:0});
+            });
+        }
+        , backGallery: function(){
+            var list = $('#gallery ul');
+            $('li',list).last().prependTo(list);
+
+            var newPos = -$('li',list).first().next().position().left;
+            list.css({left:newPos});
+            list.animate({left:0},200);
+        }
+        , clientLogin: function(){
               this.animationSequence();
             $('article').html('<div id="login">Client login Coming soon...</div>');
             
