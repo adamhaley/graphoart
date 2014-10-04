@@ -285,6 +285,8 @@ h2 {
   display: none;
 }
 #gallery ul {
+  position: absolute;
+  left: 0;
   list-style-type: none;
   white-space: nowrap;
   overflow-x: scroll;

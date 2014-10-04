@@ -354,6 +354,18 @@ define([], function() {
 
                 });
             }
+            var advanceGallery = function(){
+                var list = $('#gallery ul');
+                var newPos = -$('li',list).first().next().position().left;
+                list.animate({left:newPos},200,function(){
+                        $('li',list).first().appendTo(list);
+                        list.css({left:0});
+                });
+            }
+            if(this.intervalId){
+                clearInterval(this.intervalId);
+            }
+            this.intervalId = setInterval(advanceGallery,5000);
             loadGallery();
         }
         ,clientLogin: function(){
