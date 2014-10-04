@@ -1,3 +1,4 @@
+@import url('../css/font/entypo.css');
 /* begin less functions */
 /* end less functions */
 body {
@@ -257,6 +258,14 @@ h2 {
 	}
 	*/
 }
+#prev {
+  font-family: 'entypo';
+  float: left;
+}
+#next {
+  font-family: 'entypo';
+  float: right;
+}
 #gallery {
   position: absolute;
   top: 0px;
@@ -285,6 +294,8 @@ h2 {
   display: none;
 }
 #gallery ul {
+  position: absolute;
+  left: 0;
   list-style-type: none;
   white-space: nowrap;
   overflow-x: scroll;
