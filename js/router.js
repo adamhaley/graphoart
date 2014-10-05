@@ -16,7 +16,6 @@ define([], function() {
                 , 'gallery/:cat': 'showGallery' 
                 , 'login': 'clientLogin'
                 ,'*actions':'defaultAction'
-
         }
         , initialize: function () {
 	    	Backbone.history.start();
@@ -25,7 +24,8 @@ define([], function() {
             var year = new Date().getFullYear();
             $('footer').find('.current-year').text(year);
 
-
+            $('body').on('click', '#prev',this.backGallery);
+            $('body').on('click', '#next',this.forwardGallery);
             //submit event handler
             $('body').on('click','#submit',function(e){
                 e.preventDefault();
@@ -111,8 +111,6 @@ define([], function() {
 
             $('a[href$="home"]').addClass('active');
 
-            //$('#content article').css('overflow','hidden');
-
             $('.bx-wrapper').hide();
            
             $('#content nav').html(''); 
@@ -188,13 +186,14 @@ define([], function() {
             this.animationSequence();
              
                 $('a').removeClass('active');
+                $('.gallery-control').hide();
                 $('a[href$="' + which + '"]').addClass('active');
 
                 $('#content nav').removeClass('contact');
 
                 $('.bx-wrapper').hide();
                 $('#content nav').html('');
-                // $('#content article').css('overflow','auto');
+                
                 $('#content article').removeClass('gallery');
                 $('#content article').addClass('info');
 
@@ -284,17 +283,33 @@ define([], function() {
                 $('a[href$="photography"]').addClass('active');
             }
 
+            var _this = this;
+
             $('#content nav').html('');
-            $('article').html('<div id="gallery" />');
-            // $('#carousel').fadeOut(function(){
-            $('.bx-wrapper').hide();
+
+            $.get('templates/gallery.tpl',function(tpl){
+                $('article').html(tpl);
+                $('.bx-wrapper').hide();
       
-            $('article').attr('class','gallery');
+                $('article').attr('class','gallery');
 
-
-            this.animationSequence();
-
-            var loadGallery = function(){
+                _this.animationSequence();
+                $('.gallery-control').show();
+                /*uncomment to activate auto gallery cycle
+                **  
+                var forwardGallery = function(){
+                    _this.forwardGallery();
+                }
+                if(_this.intervalId){
+                    clearInterval(_this.intervalId);
+                }
+                _this.intervalId = setInterval(forwardGallery,5000);
+                */
+                loadGallery();
+                
+            });
+            
+            function loadGallery(){
                 $('#gallery').hide();
                 $('#imgcount').html(0);
                 $.ajax({
@@ -354,15 +369,7 @@ define([], function() {
 
                 });
             }
-            var self = this;
-            var forwardGallery = function(){
-                self.forwardGallery();
-            }
-            if(this.intervalId){
-                clearInterval(this.intervalId);
-            }
-            this.intervalId = setInterval(forwardGallery,5000);
-            loadGallery();
+          
         }
         , forwardGallery: function(){
             var list = $('#gallery ul');

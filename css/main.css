@@ -251,20 +251,49 @@ h2 {
   top: 0;
   width: 800px;
   height: 390px;
-  /*
-	img{
-		border-left:2px solid #fff;
-		border-right:2px solid #fff;
-	}
-	*/
 }
-#prev {
+.gallery-control {
   font-family: 'entypo';
-  float: left;
+  font-size: 500%;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  display: none;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@value)";
+  /* IE 5-7 */
+  filter: alpha(opacity=30);
+  /* Netscape */
+  -moz-opacity: 0.3;
+  /* Safari 1.x */
+  -khtml-opacity: 0.3;
+  /* Good browsers */
+  opacity: 0.3;
+  /* TRANSITIONS */
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  /* END TRANSITIONS */
 }
-#next {
-  font-family: 'entypo';
-  float: right;
+.gallery-control:hover {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@value)";
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+  /* Netscape */
+  -moz-opacity: 0.5;
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+  /* Good browsers */
+  opacity: 0.5;
+}
+.gallery-control#prev {
+  left: 300px;
+}
+.gallery-control#next {
+  right: 40px;
 }
 #gallery {
   position: absolute;

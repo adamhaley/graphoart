@@ -225,31 +225,35 @@ h2{
 	top:0;
 	width:800px;
 	height:390px;
-	/*
-	img{
-		border-left:2px solid #fff;
-		border-right:2px solid #fff;
+	
+}
+
+.gallery-control{
+	font-family: 'entypo';
+	font-size:500%;
+	position:absolute;
+	top:40%;
+	cursor:pointer;
+	display:none;
+	.opacity(30);
+	.transitions;
+	&:hover{
+		.opacity(50);
 	}
-	*/
-}
+	&#prev{
+		left:300px;
+	
+	}
+	&#next{
+		right:40px;
 
-#prev{
-	 font-family: 'entypo';
-	 float:left;
-}
-
-#next{
-	 font-family: 'entypo';
-	 float:right;
+	}
 }
 
 #gallery{
 	position:absolute;
-	// left:200px;
 	top:0px;
-	// z-index:10;
 	overflow:none;
-	// border:1px solid pink;
 	width:800px;
 	height:390px;
 
