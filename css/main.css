@@ -80,7 +80,7 @@ li#social-links img {
   top: -2px;
   background-color: #c9c9c9;
   width: 1276px;
-  height: 390px;
+  height: 380px;
   /* TRANSITIONS */
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -294,6 +294,13 @@ h2 {
 }
 .gallery-control#next {
   right: 40px;
+}
+.studio-img {
+  position: relative;
+  width: 400px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 20px;
 }
 #gallery {
   position: absolute;
