@@ -64,11 +64,16 @@ li#social-links{
 	background-color: #c9c9c9;
 	// background-image:url(../images/graphoart-bg.png);
 	width:1276px;
-	height:380px;
+	height:385px;
 	.transitions;
 	overflow:hidden;
 	&.hidden{
 		width:0px;
+	}
+	&:hover{
+		.gallery-control{
+			.opacity(30);
+		}
 	}
 
 }
@@ -235,7 +240,7 @@ h2{
 	top:40%;
 	cursor:pointer;
 	display:none;
-	.opacity(30);
+	.opacity(0);
 	.transitions;
 	&:hover{
 		.opacity(50);
